@@ -1,0 +1,12 @@
+WARNING - 19:01:20: First conversion pass
+WARNING - 19:01:20: Second pass : generating package usages
+WARNING - 19:01:20: Saving uml file /resource/webapp/src/main/java/it/unisa/di/tirociniosmart/convenzioni/convenzioni.uml
+WARNING - 19:01:20: Uml file /resource/webapp/src/main/java/it/unisa/di/tirociniosmart/convenzioni/convenzioni.uml saved
+WARNING - 19:26:20: Convert webapp
+WARNING - 19:26:20: Creating types 
+WARNING - 19:26:21: Initializing types
+ERROR - 19:26:26: org.mockito.ArgumentCaptor cannot be found by org.eclipse.umlgen.reverse.java_9.0.0.201901300933
+WARNING - 19:26:29: Generic post-process : Creating usages and associations
+WARNING - 19:26:29: Generic post-process : Creating activities
+WARNING - 19:26:30: Saving uml file /resource/webapp/webapp.uml
+WARNING - 19:26:30: Uml file /resource/webapp/webapp.uml saved

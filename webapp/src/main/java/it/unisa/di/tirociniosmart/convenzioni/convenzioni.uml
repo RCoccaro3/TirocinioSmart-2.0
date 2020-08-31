@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_bQ3JcOriEeqFjdZbfQyFpw" name="convenzioni">
+  <elementImport xmi:id="_bS-CQOriEeqFjdZbfQyFpw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_bS-CQeriEeqFjdZbfQyFpw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+  </elementImport>
+  <elementImport xmi:id="_bS-CQuriEeqFjdZbfQyFpw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+  </elementImport>
+  <elementImport xmi:id="_bS-CQ-riEeqFjdZbfQyFpw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+  </elementImport>
+  <elementImport xmi:id="_bS-CROriEeqFjdZbfQyFpw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+  </elementImport>
+  <elementImport xmi:id="_bS-CReriEeqFjdZbfQyFpw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+  </elementImport>
+  <elementImport xmi:id="_bS-pUOriEeqFjdZbfQyFpw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+  </elementImport>
+  <elementImport xmi:id="_bS-pUeriEeqFjdZbfQyFpw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+  </elementImport>
+  <elementImport xmi:id="_bS-pUuriEeqFjdZbfQyFpw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_bS-pU-riEeqFjdZbfQyFpw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <elementImport xmi:id="_bS-pVOriEeqFjdZbfQyFpw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_bS-pVeriEeqFjdZbfQyFpw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <packageImport xmi:id="_bS3UkOriEeqFjdZbfQyFpw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_bS5w0OriEeqFjdZbfQyFpw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_bS_QYOriEeqFjdZbfQyFpw" name="it">
+    <packagedElement xmi:type="uml:Package" xmi:id="_bS_QYeriEeqFjdZbfQyFpw" name="unisa">
+      <packagedElement xmi:type="uml:Package" xmi:id="_bS_QYuriEeqFjdZbfQyFpw" name="di">
+        <packagedElement xmi:type="uml:Package" xmi:id="_bS_QY-riEeqFjdZbfQyFpw" name="tirociniosmart">
+          <packagedElement xmi:type="uml:Package" xmi:id="_bS_QZOriEeqFjdZbfQyFpw" name="convenzioni">
+            <packagedElement xmi:type="uml:Class" xmi:id="_bTEv8OriEeqFjdZbfQyFpw" name="PartitaIvaAziendaEsistenteException" visibility="public">
+              <eAnnotations xmi:id="_bTEv8eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_bTEv8uriEeqFjdZbfQyFpw" key="documentation" value=" Eccezione lanciata quando si tenta di inserire un'azienda la cui partita IVA è già presente&#xD;&#xA; nel sistema.&#xD;&#xA;"/>
+              </eAnnotations>
+              <generalization xmi:id="_bTSyYuriEeqFjdZbfQyFpw" general="_bTSyYeriEeqFjdZbfQyFpw"/>
+              <ownedAttribute xmi:id="_bTY5AOriEeqFjdZbfQyFpw" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bTauMOriEeqFjdZbfQyFpw" name="" value="8794307163457723272L">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bTb8UOriEeqFjdZbfQyFpw" name="messaggioDefault" visibility="private" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bTb8UeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bTb8UuriEeqFjdZbfQyFpw" key="documentation" value="Stringa che definisce il messaggio di default utilizzato nell'eccezione."/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bTb8U-riEeqFjdZbfQyFpw" name="" value="&quot;Partita IVA già presente&quot;">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedOperation xmi:id="_bTiC8OriEeqFjdZbfQyFpw" name="PartitaIvaAziendaEsistenteException" visibility="public">
+                <eAnnotations xmi:id="_bTiC8eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bTiC8uriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio {@link #messaggioDefault}.&#xD;&#xA; "/>
+                </eAnnotations>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bToJkOriEeqFjdZbfQyFpw" name="PartitaIvaAziendaEsistenteException" visibility="public">
+                <eAnnotations xmi:id="_bToJkeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bToJkuriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio la stringa specificata come parametro.&#xD;&#xA; &#xD;&#xA; @param messaggio Stringa che rappresenta il messaggio da mostrare&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bToJk-riEeqFjdZbfQyFpw" name="messaggio">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_bTFXAOriEeqFjdZbfQyFpw" name="IndirizzoAziendaNonValidoException" visibility="public">
+              <eAnnotations xmi:id="_bTFXAeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_bTFXAuriEeqFjdZbfQyFpw" key="documentation" value=" Eccezione lanciata quando si tenta di inserire un'azienda il cui indirizzo non è valido oppure&#xD;&#xA; è nullo.&#xD;&#xA;"/>
+              </eAnnotations>
+              <generalization xmi:id="_bTp-wOriEeqFjdZbfQyFpw" general="_bTSyYeriEeqFjdZbfQyFpw"/>
+              <ownedAttribute xmi:id="_bTql0OriEeqFjdZbfQyFpw" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bTrM4OriEeqFjdZbfQyFpw" name="" value="-4170303032370990897L">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bTsbAOriEeqFjdZbfQyFpw" name="messaggioDefault" visibility="private" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bTtCEOriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bTtCEeriEeqFjdZbfQyFpw" key="documentation" value="Stringa che definisce il messaggio di default utilizzato nell'eccezione."/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bTtCEuriEeqFjdZbfQyFpw" name="" value="&quot;Indirizzo non valido&quot;">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedOperation xmi:id="_bTtpIOriEeqFjdZbfQyFpw" name="IndirizzoAziendaNonValidoException" visibility="public">
+                <eAnnotations xmi:id="_bTtpIeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bTtpIuriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio {@link #messaggioDefault}.&#xD;&#xA; "/>
+                </eAnnotations>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bTu3QOriEeqFjdZbfQyFpw" name="IndirizzoAziendaNonValidoException" visibility="public">
+                <eAnnotations xmi:id="_bTu3QeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bTu3QuriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio la stringa specificata come parametro.&#xD;&#xA; &#xD;&#xA; @param messaggio Stringa che rappresenta il messaggio da mostrare&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bTu3Q-riEeqFjdZbfQyFpw" name="messaggio">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_bTFXA-riEeqFjdZbfQyFpw" name="DelegatoNonValidoException" visibility="public">
+              <eAnnotations xmi:id="_bTF-EOriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_bTF-EeriEeqFjdZbfQyFpw" key="documentation" value=" Eccezione lanciata quando il controllo su un delegato di un'azienda fallisce poiché questo&#xD;&#xA; è nullo.&#xD;&#xA;"/>
+              </eAnnotations>
+              <generalization xmi:id="_bTwFYOriEeqFjdZbfQyFpw" general="_bTSyYeriEeqFjdZbfQyFpw"/>
+              <ownedAttribute xmi:id="_bTwscOriEeqFjdZbfQyFpw" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bTwsceriEeqFjdZbfQyFpw" name="" value="3436988408661918683L">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bTx6kOriEeqFjdZbfQyFpw" name="messaggioDefault" visibility="private" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bTx6keriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bTx6kuriEeqFjdZbfQyFpw" key="documentation" value="Stringa che definisce il messaggio di default utilizzato nell'eccezione."/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bTyhoOriEeqFjdZbfQyFpw" name="" value="&quot;Identificatore non valido&quot;">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedOperation xmi:id="_bTyhoeriEeqFjdZbfQyFpw" name="DelegatoNonValidoException" visibility="public">
+                <eAnnotations xmi:id="_bTzIsOriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bTzIseriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio {@link #messaggioDefault}.&#xD;&#xA; "/>
+                </eAnnotations>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bT094OriEeqFjdZbfQyFpw" name="DelegatoNonValidoException" visibility="public">
+                <eAnnotations xmi:id="_bT094eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bT094uriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio la stringa specificata come parametro.&#xD;&#xA; &#xD;&#xA; @param messaggio Stringa che rappresenta il messaggio da mostrare&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bT094-riEeqFjdZbfQyFpw" name="messaggio">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_bTF-EuriEeqFjdZbfQyFpw" name="NomeAziendaNonValidoException" visibility="public">
+              <eAnnotations xmi:id="_bTF-E-riEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_bTF-FOriEeqFjdZbfQyFpw" key="documentation" value=" Eccezione lanciata quando il controllo sul nome di un'azienda fallisce poiché questo&#xD;&#xA; non rispetta il pattern o è nullo.&#xD;&#xA;"/>
+              </eAnnotations>
+              <generalization xmi:id="_bT2MAOriEeqFjdZbfQyFpw" general="_bTSyYeriEeqFjdZbfQyFpw"/>
+              <ownedAttribute xmi:id="_bT3aIOriEeqFjdZbfQyFpw" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bT3aIeriEeqFjdZbfQyFpw" name="" value="-5871131123082952550L">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bT4oQOriEeqFjdZbfQyFpw" name="messaggioDefault" visibility="private" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bT5PUOriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bT5PUeriEeqFjdZbfQyFpw" key="documentation" value="Stringa che definisce il messaggio di default utilizzato nell'eccezione."/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bT5PUuriEeqFjdZbfQyFpw" name="" value="&quot;Nome azienda non valido&quot;">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedOperation xmi:id="_bT5PU-riEeqFjdZbfQyFpw" name="NomeAziendaNonValidoException" visibility="public">
+                <eAnnotations xmi:id="_bT5PVOriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bT5PVeriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio {@link #messaggioDefault}.&#xD;&#xA; "/>
+                </eAnnotations>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bT6dcOriEeqFjdZbfQyFpw" name="NomeAziendaNonValidoException" visibility="public">
+                <eAnnotations xmi:id="_bT6dceriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bT6dcuriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio la stringa specificata come parametro.&#xD;&#xA; &#xD;&#xA; @param messaggio Stringa che rappresenta il messaggio da mostrare&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bT6dc-riEeqFjdZbfQyFpw" name="messaggio">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_bTJBYOriEeqFjdZbfQyFpw" name="AziendaRepository" visibility="public">
+              <eAnnotations xmi:id="_bTJBYeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_bTJBYuriEeqFjdZbfQyFpw" key="documentation" value=" Classe che definisce le operazioni per la modellazione e l'accesso &#xD;&#xA; alle informazioni persistenti relative alle Aziende.&#xD;&#xA; &#xD;&#xA; @see Azienda&#xD;&#xA;"/>
+              </eAnnotations>
+              <generalization xmi:id="_bT-u5OriEeqFjdZbfQyFpw" general="_bT-u4-riEeqFjdZbfQyFpw"/>
+              <ownedOperation xmi:id="_bUDnYOriEeqFjdZbfQyFpw" name="findAll">
+                <eAnnotations xmi:id="_bUEOcOriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bUEOceriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere l'elenco delle aziende salvate nel Database.&#xD;&#xA; &#xD;&#xA; @return lista di {@link Azienda} che rappresenta la lista delle aziende&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bUEOcuriEeqFjdZbfQyFpw" type="_bT_V8eriEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bUHRwOriEeqFjdZbfQyFpw" name="findById">
+                <eAnnotations xmi:id="_bUHRweriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bUHRwuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere un'azienda a partire dal suo identificatore.&#xD;&#xA; &#xD;&#xA; @param id Stringa che rappresenta l'identificativo dell'azienda&#xD;&#xA;           &#xD;&#xA; @return Oggetto {@link Azienda} che rappresenta l'azienda individuata. &lt;b>Può essere null&lt;/b>&#xD;&#xA;         se nel database non è presente un'azienda con l'id passato come parametro&#xD;&#xA; &#xD;&#xA; @pre id != null &#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bUHRw-riEeqFjdZbfQyFpw" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_bUHRxOriEeqFjdZbfQyFpw" type="_bTJoc-riEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bUKVEOriEeqFjdZbfQyFpw" name="findAllBySenzaBarriere">
+                <eAnnotations xmi:id="_bUKVEeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bUKVEuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere l'elenco delle aziende con o senza barriere architettoniche.&#xD;&#xA; &#xD;&#xA; @param senzaBarriere Boolean che permette di ricercare aziende con o senza barriere &#xD;&#xA;                      architettoniche&#xD;&#xA;           &#xD;&#xA; @return lista di {@link Azienda} che rappresenta la lista delle &#xD;&#xA;         aziende ricercate                                       &#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bUKVE-riEeqFjdZbfQyFpw" name="senzaBarriere">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_bUKVFOriEeqFjdZbfQyFpw" type="_bT_V8eriEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bUMxUOriEeqFjdZbfQyFpw" name="findAllByRichiestaConvenzionamentoStatus">
+                <eAnnotations xmi:id="_bUMxUeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bUMxUuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere l'elenco delle aziende in base allo stato della richiesta di convenzione.&#xD;&#xA; &#xD;&#xA; @param status Intero che indica lo stato della richiesta associata all'azienda&#xD;&#xA; &#xD;&#xA; @return L'elenco di {@link Azienda} la cui richiesta si trova nello stato specificato&#xD;&#xA; &#xD;&#xA; @pre status = {@link RichiestaConvenzionamento#IN_ATTESA} or&#xD;&#xA;      status = {@link RichiestaConvenzionamento#APPROVATA} or&#xD;&#xA;      status = {@link RichiestaConvenzionamento#RIFIUTATA}&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bUMxU-riEeqFjdZbfQyFpw" name="status">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_bUMxVOriEeqFjdZbfQyFpw" type="_bT_V8eriEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bUOmgOriEeqFjdZbfQyFpw" name="existsById">
+                <eAnnotations xmi:id="_bUOmgeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bUOmguriEeqFjdZbfQyFpw" key="documentation" value=" Permette di verificare se un'Azienda esiste nel database attraverso il proprio identificatore.&#xD;&#xA; &#xD;&#xA; @param id Stringa che rappresenta l'identificativo dell'Azienda&#xD;&#xA;               &#xD;&#xA; @return true se l'azienda esiste nel database,&#xD;&#xA;         false se l'azienda non esiste nel database&#xD;&#xA;         &#xD;&#xA; @pre id != null&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bUOmg-riEeqFjdZbfQyFpw" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_bUOmhOriEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bUQbsOriEeqFjdZbfQyFpw" name="existsByPartitaIva">
+                <eAnnotations xmi:id="_bUQbseriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bUQbsuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di verificare se un'Azienda esiste nel database attraverso la propria partita IVA.&#xD;&#xA; &#xD;&#xA; @param partitaIva Stringa che rappresenta la partita IVA dell'azienda&#xD;&#xA;               &#xD;&#xA; @return true se l'azienda esiste nel database,&#xD;&#xA;         false se l'azienda non esiste nel database&#xD;&#xA;         &#xD;&#xA; @pre partitaIva != null&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bUQbs-riEeqFjdZbfQyFpw" name="partitaIva">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_bUQbtOriEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_bTJocOriEeqFjdZbfQyFpw" name="CommentoRichiestaConvenzionamentoNonValidoException" visibility="public">
+              <eAnnotations xmi:id="_bTJoceriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_bTJocuriEeqFjdZbfQyFpw" key="documentation" value=" Eccezione lanciata quando si tenta di associare ad una richiesta di convenzionamento un commento&#xD;&#xA; non valido.&#xD;&#xA;"/>
+              </eAnnotations>
+              <generalization xmi:id="_bURp0OriEeqFjdZbfQyFpw" general="_bTSyYeriEeqFjdZbfQyFpw"/>
+              <ownedAttribute xmi:id="_bUS38OriEeqFjdZbfQyFpw" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bUS38eriEeqFjdZbfQyFpw" name="" value="-3341469093182023509L">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bUTfAOriEeqFjdZbfQyFpw" name="messaggioDefault" visibility="private" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bUTfAeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bUUGEOriEeqFjdZbfQyFpw" key="documentation" value="Stringa che definisce il messaggio di default utilizzato nell'eccezione."/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bUUGEeriEeqFjdZbfQyFpw" name="" value="&quot;Commento non valido&quot;">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedOperation xmi:id="_bUUGEuriEeqFjdZbfQyFpw" name="CommentoRichiestaConvenzionamentoNonValidoException" visibility="public">
+                <eAnnotations xmi:id="_bUUGE-riEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bUUGFOriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio {@link #messaggioDefault}.&#xD;&#xA; "/>
+                </eAnnotations>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bUV7QOriEeqFjdZbfQyFpw" name="CommentoRichiestaConvenzionamentoNonValidoException" visibility="public">
+                <eAnnotations xmi:id="_bUV7QeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bUV7QuriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio la stringa specificata come parametro.&#xD;&#xA; &#xD;&#xA; @param messaggio Stringa che rappresenta il messaggio da mostrare&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bUV7Q-riEeqFjdZbfQyFpw" name="messaggio">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_bTJoc-riEeqFjdZbfQyFpw" name="Azienda" visibility="public">
+              <eAnnotations xmi:id="_bTJodOriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_bTJoderiEeqFjdZbfQyFpw" key="documentation" value=" Classe che modella un'azienda convenzionata con il dipartimento.&#xD;&#xA;"/>
+              </eAnnotations>
+              <elementImport xmi:id="_bUYXguriEeqFjdZbfQyFpw" importedElement="_bUYXgeriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bUY-kOriEeqFjdZbfQyFpw" importedElement="_bUYXg-riEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bUY-keriEeqFjdZbfQyFpw" importedElement="_bT_V8eriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bUY-leriEeqFjdZbfQyFpw" importedElement="_bUY-lOriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bUZloeriEeqFjdZbfQyFpw" importedElement="_bUZloOriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bUaMsOriEeqFjdZbfQyFpw" importedElement="_bUZlouriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bUaMsuriEeqFjdZbfQyFpw" importedElement="_bUaMseriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bUazweriEeqFjdZbfQyFpw" importedElement="_bUazwOriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bUba0eriEeqFjdZbfQyFpw" importedElement="_bUba0OriEeqFjdZbfQyFpw" visibility="private"/>
+              <ownedAttribute xmi:id="_bUcB4OriEeqFjdZbfQyFpw" name="id" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bUco8OriEeqFjdZbfQyFpw" name="partitaIva" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bUdQAOriEeqFjdZbfQyFpw" name="nome" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bUd3EOriEeqFjdZbfQyFpw" name="indirizzo" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bUfFMOriEeqFjdZbfQyFpw" name="senzaBarriere" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bUhhcOriEeqFjdZbfQyFpw" name="delegato" visibility="private" type="_bTLdo-riEeqFjdZbfQyFpw" association="_bW448OriEeqFjdZbfQyFpw">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bUhhceriEeqFjdZbfQyFpw" name="" type="_bTLdo-riEeqFjdZbfQyFpw" value="CascadeType.ALL)&#xD;&#xA;  private DelegatoAziendale delegato"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bUkkwOriEeqFjdZbfQyFpw" name="progettiFormativi" visibility="private" type="_bUYXgeriEeqFjdZbfQyFpw" isOrdered="true" isUnique="false">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bUly4OriEeqFjdZbfQyFpw" value="*"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bUkkweriEeqFjdZbfQyFpw" name="" type="_bUYXgeriEeqFjdZbfQyFpw" value="CascadeType.ALL, fetch = FetchType.LAZY, mappedBy = &quot;azienda&quot;)&#xD;&#xA;  private List&lt;ProgettoFormativo> progettiFormativi"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bUoPIOriEeqFjdZbfQyFpw" name="richiestaConvenzionamento" visibility="private" type="_bTPIAOriEeqFjdZbfQyFpw" association="_bW5gAOriEeqFjdZbfQyFpw">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bUo2MOriEeqFjdZbfQyFpw" name="" type="_bTPIAOriEeqFjdZbfQyFpw" value="CascadeType.ALL)&#xD;&#xA;  private RichiestaConvenzionamento richiestaConvenzionamento"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bUpdQOriEeqFjdZbfQyFpw" name="ID_PATTERN" visibility="public" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bUpdQeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bUqEUOriEeqFjdZbfQyFpw" key="documentation" value="Espressione regolare che definisce il formato del campo id."/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bUqEUeriEeqFjdZbfQyFpw" name="" value="&quot;^[a-zA-Z0-9]{6,24}$&quot;">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bUqrYOriEeqFjdZbfQyFpw" name="PARTITA_IVA_PATTERN" visibility="public" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bUrScOriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bUrSceriEeqFjdZbfQyFpw" key="documentation" value="Espressione regolare che definisce il formato del campo partita IVA."/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bUrScuriEeqFjdZbfQyFpw" name="" value="&quot;^[0-9]{11}$&quot;">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bUr5gOriEeqFjdZbfQyFpw" name="MIN_LUNGHEZZA_NOME" visibility="public" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bUsgkOriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bUsgkeriEeqFjdZbfQyFpw" key="documentation" value="Costante che definisce la minima lunghezza del campo nome."/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_bUsgkuriEeqFjdZbfQyFpw" name="" value="2">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bUtHoOriEeqFjdZbfQyFpw" name="MAX_LUNGHEZZA_NOME" visibility="public" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bUtusOriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bUtuseriEeqFjdZbfQyFpw" key="documentation" value="Costante che definisce la massima lunghezza del campo nome."/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_bUtusuriEeqFjdZbfQyFpw" name="" value="255">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bUu80OriEeqFjdZbfQyFpw" name="MIN_LUNGHEZZA_INDIRIZZO" visibility="public" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bUu80eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bUu80uriEeqFjdZbfQyFpw" key="documentation" value="Costante che definisce la minima lunghezza del campo indirizzo."/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_bUvj4OriEeqFjdZbfQyFpw" name="" value="2">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bUwK8OriEeqFjdZbfQyFpw" name="MAX_LUNGHEZZA_INDIRIZZO" visibility="public" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bUwK8eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bUwK8uriEeqFjdZbfQyFpw" key="documentation" value="Costante che definisce la massima lunghezza del campo indirizzo."/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_bUwK8-riEeqFjdZbfQyFpw" name="" value="255">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedOperation xmi:id="_bUwyAOriEeqFjdZbfQyFpw" name="Azienda" visibility="public">
+                <eAnnotations xmi:id="_bUwyAeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bUwyAuriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un oggetto Azienda vuoto che deve essere popolato con i metodi setters.&#xD;&#xA; "/>
+                </eAnnotations>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bU1DcOriEeqFjdZbfQyFpw" name="equals" visibility="public">
+                <eAnnotations xmi:id="_bU1DceriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bU1DcuriEeqFjdZbfQyFpw" key="documentation" value=" Determina se due oggetti rappresentano la stessa azienda guardando agli id dei suddetti.&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bU1Dc-riEeqFjdZbfQyFpw" name="object" type="_bUynMOriEeqFjdZbfQyFpw"/>
+                <ownedParameter xmi:id="_bU1DdOriEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bU2RkOriEeqFjdZbfQyFpw" name="toString" visibility="public">
+                <eAnnotations xmi:id="_bU2RkeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bU2RkuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di definire una stringa che può essere considerata come la &#xD;&#xA; &quot;rappresentazione testuale&quot; dell'oggetto Azienda.&#xD;&#xA; &#xD;&#xA; @return Stringa che rappresenta una descrizione più accurata e consona dell'oggetto&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bU2Rk-riEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bU3fsOriEeqFjdZbfQyFpw" name="getId" visibility="public">
+                <eAnnotations xmi:id="_bU3fseriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bU3fsuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere l'id dell'azienda.&#xD;&#xA; &#xD;&#xA; @return Stringa che rappresenta l'id dell'azienda&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bU3fs-riEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bU578OriEeqFjdZbfQyFpw" name="setId" visibility="public">
+                <eAnnotations xmi:id="_bU578eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bU578uriEeqFjdZbfQyFpw" key="documentation" value=" Permette di specificare l'id dell'azienda.&#xD;&#xA; &#xD;&#xA; @param id Stringa che rappresenta l'id che si vuole assegnare all'azienda.&#xD;&#xA; &#xD;&#xA; @pre id != null&#xD;&#xA; @pre id.length() >= 6 and id.length() &lt;= 24&#xD;&#xA; @pre id matches {@link Azienda#ID_PATTERN}&#xD;&#xA; &#xD;&#xA; @post getId() = id&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bU578-riEeqFjdZbfQyFpw" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bU7KEOriEeqFjdZbfQyFpw" name="getPartitaIva" visibility="public">
+                <eAnnotations xmi:id="_bU7KEeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bU7KEuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere la partita IVA dell'azienda.&#xD;&#xA; &#xD;&#xA; @return Stringa che rappresenta la partita IVA dell'azienda&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bU7KE-riEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bU8_QOriEeqFjdZbfQyFpw" name="setPartitaIva" visibility="public">
+                <eAnnotations xmi:id="_bU8_QeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bU8_QuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di specificare la partita IVA dell'azienda.&#xD;&#xA; &#xD;&#xA; @param partitaIva Stringa numerica che rappresenta la partita IVA che si vuole assegnare&#xD;&#xA;                   all'azienda.&#xD;&#xA; &#xD;&#xA; @pre partitaIva != null&#xD;&#xA; @pre partitaIva.length() = 11&#xD;&#xA; @pre partitaIva matches {@link Azienda#PARTITA_IVA_PATTERN}&#xD;&#xA; &#xD;&#xA; @post getPartitaIva() = partitaIva&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bU8_Q-riEeqFjdZbfQyFpw" name="partitaIva">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bU-NYOriEeqFjdZbfQyFpw" name="getNome" visibility="public">
+                <eAnnotations xmi:id="_bU-NYeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bU-NYuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere il nome (o ragione sociale) dell'azienda.&#xD;&#xA; &#xD;&#xA; @return Stringa che rappresenta il nome dell'azienda&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bU-NY-riEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bVACkOriEeqFjdZbfQyFpw" name="setNome" visibility="public">
+                <eAnnotations xmi:id="_bVACkeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVACkuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di specificare il nome (o ragione sociale) dell'azienda.&#xD;&#xA; &#xD;&#xA; @param nome Stringa che rappresenta il nome dell'azienda&#xD;&#xA; &#xD;&#xA; @pre nome != null&#xD;&#xA; @pre nome.length() >= 2 and nome.length() &lt;= 255&#xD;&#xA; &#xD;&#xA; @post getNome() = nome&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bVACk-riEeqFjdZbfQyFpw" name="nome">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bVApoOriEeqFjdZbfQyFpw" name="getIndirizzo" visibility="public">
+                <eAnnotations xmi:id="_bVApoeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVApouriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere l'indirizzo dell'azienda.&#xD;&#xA; &#xD;&#xA; @return Stringa che rappresenta l'indirizzo dell'azienda&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bVApo-riEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bVCe0OriEeqFjdZbfQyFpw" name="setIndirizzo" visibility="public">
+                <eAnnotations xmi:id="_bVCe0eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVCe0uriEeqFjdZbfQyFpw" key="documentation" value=" Permette di specificare l'indirizzo dell'azienda.&#xD;&#xA; &#xD;&#xA; @param indirizzo Stringa che rappresenta l'indirizzo dell'azienda&#xD;&#xA; &#xD;&#xA; @pre indirizzo != null&#xD;&#xA; @pre indirizzo.length() > 0&#xD;&#xA; &#xD;&#xA; @post getIndirizzo() = indirizzo&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bVCe0-riEeqFjdZbfQyFpw" name="indirizzo">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bVDs8OriEeqFjdZbfQyFpw" name="isSenzaBarriere" visibility="public">
+                <eAnnotations xmi:id="_bVDs8eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVDs8uriEeqFjdZbfQyFpw" key="documentation" value=" Permette di determinare se l'azienda sia in grado di accogliere studenti con disabilità&#xD;&#xA; motorie o meno.&#xD;&#xA; &#xD;&#xA; @return true se l'azienda può accogliere studenti con disabilità; false altrimenti&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bVDs8-riEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bVFiIOriEeqFjdZbfQyFpw" name="setSenzaBarriere" visibility="public">
+                <eAnnotations xmi:id="_bVFiIeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVFiIuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di specificare se l'azienda sia in grado di accogliere studenti con disabilità&#xD;&#xA; o meno.&#xD;&#xA; &#xD;&#xA; @param senzaBarriere true se l'azienda può accogliere studenti con disabilità motorie;&#xD;&#xA;                      false altrimenti&#xD;&#xA;                      &#xD;&#xA; @post isSenzaBarriere() = senzaBarriere&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bVFiI-riEeqFjdZbfQyFpw" name="senzaBarriere">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bVHXUOriEeqFjdZbfQyFpw" name="getDelegato" visibility="public">
+                <eAnnotations xmi:id="_bVHXUeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVHXUuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere il {@link DelegatoAziendale} che rappresenta l'azienda.&#xD;&#xA; &#xD;&#xA; @return L'oggetto che rappresenta il delegato aziendale che rappresenta l'azienda&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bVHXU-riEeqFjdZbfQyFpw" type="_bTLdo-riEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bVJMgOriEeqFjdZbfQyFpw" name="getProgettiFormativi" visibility="public">
+                <eAnnotations xmi:id="_bVJMgeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVJMguriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere la lista dei progetti formativi offerti dall'azienda.&#xD;&#xA; &#xD;&#xA; @return Lista di oggetti {@link ProgettoFormativo} offerti dall'azienda&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bVJMg-riEeqFjdZbfQyFpw" type="_bT_V8eriEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bVMP0OriEeqFjdZbfQyFpw" name="addProgettoFormativo" visibility="public">
+                <eAnnotations xmi:id="_bVMP0eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVMP0uriEeqFjdZbfQyFpw" key="documentation" value=" Permette di aggiungere un progetto formativo alla lista di quelli offerti dall'azienda.&#xD;&#xA; &#xD;&#xA; @param progettoFormativo {@link ProgettoFormativo} che modella il progetto formativo che si&#xD;&#xA;                          vuole aggiungere alla lista di quelli offerti dall'azienda&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bVMP0-riEeqFjdZbfQyFpw" name="progettoFormativo" type="_bUYXgeriEeqFjdZbfQyFpw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bVNd8OriEeqFjdZbfQyFpw" name="getRichiesta" visibility="public">
+                <eAnnotations xmi:id="_bVNd8eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVNd8uriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere la richiesta di convenzionamento associata all'azienda.&#xD;&#xA; &#xD;&#xA; @return La {@link RichiestaConvenzionamento} associata all'azienda&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bVNd8-riEeqFjdZbfQyFpw" type="_bTPIAOriEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_bTKPgOriEeqFjdZbfQyFpw" name="IdAziendaNonValidoException" visibility="public">
+              <eAnnotations xmi:id="_bTKPgeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_bTKPguriEeqFjdZbfQyFpw" key="documentation" value=" Eccezione lanciata quando il controllo su un identificatore di un'azienda fallisce poiché questo&#xD;&#xA; non rispetta il pattern o è nullo.&#xD;&#xA;"/>
+              </eAnnotations>
+              <generalization xmi:id="_bVOsEOriEeqFjdZbfQyFpw" general="_bTSyYeriEeqFjdZbfQyFpw"/>
+              <ownedAttribute xmi:id="_bVOsEeriEeqFjdZbfQyFpw" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bVPTIOriEeqFjdZbfQyFpw" name="" value="6155525815689375050L">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bVPTIeriEeqFjdZbfQyFpw" name="messaggioDefault" visibility="private" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bVPTIuriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVPTI-riEeqFjdZbfQyFpw" key="documentation" value="Stringa che definisce il messaggio di default utilizzato nell'eccezione."/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bVPTJOriEeqFjdZbfQyFpw" name="" value="&quot;Identificatore non valido&quot;">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedOperation xmi:id="_bVP6MOriEeqFjdZbfQyFpw" name="IdAziendaNonValidoException" visibility="public">
+                <eAnnotations xmi:id="_bVP6MeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVP6MuriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio {@link #messaggioDefault}.&#xD;&#xA; "/>
+                </eAnnotations>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bVQhQOriEeqFjdZbfQyFpw" name="IdAziendaNonValidoException" visibility="public">
+                <eAnnotations xmi:id="_bVQhQeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVQhQuriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio la stringa specificata come parametro.&#xD;&#xA; &#xD;&#xA; @param messaggio Stringa che rappresenta il messaggio da mostrare&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bVQhQ-riEeqFjdZbfQyFpw" name="messaggio">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_bTK2kOriEeqFjdZbfQyFpw" name="IdAziendaEsistenteException" visibility="public">
+              <eAnnotations xmi:id="_bTK2keriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_bTK2kuriEeqFjdZbfQyFpw" key="documentation" value=" Eccezione lanciata quando si tenta di inserire un'azienda il cui identificatore è già presente&#xD;&#xA; nel sistema.&#xD;&#xA;"/>
+              </eAnnotations>
+              <generalization xmi:id="_bVRIUOriEeqFjdZbfQyFpw" general="_bTSyYeriEeqFjdZbfQyFpw"/>
+              <ownedAttribute xmi:id="_bVRvYOriEeqFjdZbfQyFpw" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bVRvYeriEeqFjdZbfQyFpw" name="" value="8776692110231469508L">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bVRvYuriEeqFjdZbfQyFpw" name="messaggioDefault" visibility="private" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bVSWcOriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVSWceriEeqFjdZbfQyFpw" key="documentation" value="Stringa che definisce il messaggio di default utilizzato nell'eccezione."/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bVSWcuriEeqFjdZbfQyFpw" name="" value="&quot;Identificatore già presente&quot;">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedOperation xmi:id="_bVSWc-riEeqFjdZbfQyFpw" name="IdAziendaEsistenteException" visibility="public">
+                <eAnnotations xmi:id="_bVSWdOriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVSWderiEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio {@link #messaggioDefault}.&#xD;&#xA; "/>
+                </eAnnotations>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bVS9gOriEeqFjdZbfQyFpw" name="IdAziendaEsistenteException" visibility="public">
+                <eAnnotations xmi:id="_bVS9geriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVS9guriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio la stringa specificata come parametro.&#xD;&#xA; &#xD;&#xA; @param messaggio Stringa che rappresenta il messaggio da mostrare&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bVS9g-riEeqFjdZbfQyFpw" name="messaggio">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_bTK2k-riEeqFjdZbfQyFpw" name="PartitaIvaAziendaNonValidaException" visibility="public">
+              <eAnnotations xmi:id="_bTK2lOriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_bTK2leriEeqFjdZbfQyFpw" key="documentation" value=" Eccezione lanciata quando il controllo su una partita IVA di un'azienda fallisce poiché questa&#xD;&#xA; non rispetta il pattern o è nulla.&#xD;&#xA;"/>
+              </eAnnotations>
+              <generalization xmi:id="_bVULoOriEeqFjdZbfQyFpw" general="_bTSyYeriEeqFjdZbfQyFpw"/>
+              <ownedAttribute xmi:id="_bVULoeriEeqFjdZbfQyFpw" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bVUysOriEeqFjdZbfQyFpw" name="" value="-4995833677028859753L">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bVUyseriEeqFjdZbfQyFpw" name="messaggioDefault" visibility="private" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bVUysuriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVUys-riEeqFjdZbfQyFpw" key="documentation" value="Stringa che definisce il messaggio di default utilizzato nell'eccezione."/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bVUytOriEeqFjdZbfQyFpw" name="" value="&quot;Partita IVA non valida&quot;">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedOperation xmi:id="_bVVZwOriEeqFjdZbfQyFpw" name="PartitaIvaAziendaNonValidaException" visibility="public">
+                <eAnnotations xmi:id="_bVVZweriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVVZwuriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio {@link #messaggioDefault}.&#xD;&#xA; "/>
+                </eAnnotations>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bVWA0OriEeqFjdZbfQyFpw" name="PartitaIvaAziendaNonValidaException" visibility="public">
+                <eAnnotations xmi:id="_bVWA0eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVWA0uriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio la stringa specificata come parametro.&#xD;&#xA; &#xD;&#xA; @param messaggio Stringa che rappresenta il messaggio da mostrare&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bVWA0-riEeqFjdZbfQyFpw" name="messaggio">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_bTLdoOriEeqFjdZbfQyFpw" name="ConvenzioniService" visibility="public">
+              <eAnnotations xmi:id="_bTLdoeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_bTLdouriEeqFjdZbfQyFpw" key="documentation" value=" Classe che definisce la logica di business per le operazioni possibili nell'ambito delle&#xD;&#xA; convenzioni.&#xD;&#xA; @see Azienda&#xD;&#xA; @see AziendaRepository&#xD;&#xA; @see RichiestaConvenzionamentoRepository&#xD;&#xA;"/>
+              </eAnnotations>
+              <elementImport xmi:id="_bVX2AuriEeqFjdZbfQyFpw" importedElement="_bVX2AeriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bVYdEuriEeqFjdZbfQyFpw" importedElement="_bVYdEeriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bVYdFeriEeqFjdZbfQyFpw" importedElement="_bVYdFOriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bVYdF-riEeqFjdZbfQyFpw" importedElement="_bVYdFuriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bVZEIeriEeqFjdZbfQyFpw" importedElement="_bVZEIOriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bVZEI-riEeqFjdZbfQyFpw" importedElement="_bVZEIuriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bVZrMeriEeqFjdZbfQyFpw" importedElement="_bVZrMOriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bVZrM-riEeqFjdZbfQyFpw" importedElement="_bVZrMuriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bVaSQeriEeqFjdZbfQyFpw" importedElement="_bVaSQOriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bVaSQ-riEeqFjdZbfQyFpw" importedElement="_bVaSQuriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bVaSReriEeqFjdZbfQyFpw" importedElement="_bVaSROriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bVa5UeriEeqFjdZbfQyFpw" importedElement="_bVa5UOriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bVa5U-riEeqFjdZbfQyFpw" importedElement="_bVa5UuriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bVbgYeriEeqFjdZbfQyFpw" importedElement="_bVbgYOriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bVbgZOriEeqFjdZbfQyFpw" importedElement="_bVbgY-riEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bVbgZeriEeqFjdZbfQyFpw" importedElement="_bT_V8eriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bVcHdOriEeqFjdZbfQyFpw" importedElement="_bVcHc-riEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bVcugOriEeqFjdZbfQyFpw" importedElement="_bVcHderiEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bVcuhOriEeqFjdZbfQyFpw" importedElement="_bVcug-riEeqFjdZbfQyFpw" visibility="private"/>
+              <ownedAttribute xmi:id="_bVfKwOriEeqFjdZbfQyFpw" name="aziendaRepository" visibility="private" type="_bTJBYOriEeqFjdZbfQyFpw" association="_bW5gAeriEeqFjdZbfQyFpw"/>
+              <ownedAttribute xmi:id="_bVhnAOriEeqFjdZbfQyFpw" name="richiestaConvenzionamentoRepository" visibility="private" type="_bTN54-riEeqFjdZbfQyFpw" association="_bW5gA-riEeqFjdZbfQyFpw"/>
+              <ownedAttribute xmi:id="_bVjcMOriEeqFjdZbfQyFpw" name="utenzaService" visibility="private" type="_bVbgYOriEeqFjdZbfQyFpw"/>
+              <ownedAttribute xmi:id="_bVlRYOriEeqFjdZbfQyFpw" name="mailSender" visibility="private" type="_bVYdEeriEeqFjdZbfQyFpw"/>
+              <ownedOperation xmi:id="_bVr_EOriEeqFjdZbfQyFpw" name="registraRichiestaConvenzionamento" visibility="public">
+                <eAnnotations xmi:id="_bVr_EeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVr_EuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di richiedere al sistema il salvataggio di un'azienda. La procedura registra l'azienda&#xD;&#xA; assegnandole una {@link RichiestaConvenzionamento} inizialmente in attesa.&#xD;&#xA; &#xD;&#xA; @param azienda {@link Azienda} per cui si vuole registrare una richiesta di convenzionamento.&#xD;&#xA;                Non è necessario specificare la data della richiesta di convenzionamento ad essa&#xD;&#xA;                associata né la lista dei progetti formativi offerti poiché vengono impostati da&#xD;&#xA;                questo metodo.&#xD;&#xA;                &#xD;&#xA; @return l'azienda presa come parametro a cui è stata associato l'id alla richiesta di &#xD;&#xA;         convenzionamento corrispondete               &#xD;&#xA;                &#xD;&#xA; @throws RichiestaNonAutorizzataException se l'utente non è autorizzato ad eseguire la seguente &#xD;&#xA;         operazione&#xD;&#xA;         &#xD;&#xA; @throws UsernameEsistenteException se l'username specificato è già presente nel sistema&#xD;&#xA; &#xD;&#xA; @throws UsernameNonValidoException se l'username non è specificato oppure se non rispetta il&#xD;&#xA;         formato {@link UtenteRegistrato#USERNAME_PATTERN}&#xD;&#xA; &#xD;&#xA; @throws PasswordNonValidaException se la password non è specificata oppure se non rispetta il&#xD;&#xA;         formato {@link UtenteRegistrato#PASSWORD_PATTERN} &#xD;&#xA; &#xD;&#xA; @throws EmailEsistenteException se l'e-mail specificata è già presente nel sistema&#xD;&#xA; &#xD;&#xA; @throws EmailNonValidaException se l'e-mail non è specificata oppure se non rispetta il formato&#xD;&#xA;         {@link UtenteRegistrato#EMAIL_PATTERN}&#xD;&#xA; &#xD;&#xA; @throws NomeNonValidoException se il nome è nullo oppure se la sua lunghezza non rientra&#xD;&#xA;         nell'intervallo che va da {@link UtenteRegistrato#MIN_LUNGHEZZA_NOME} a&#xD;&#xA;         {@link UtenteRegistrato#MAX_LUNGHEZZA_NOME}&#xD;&#xA; &#xD;&#xA; @throws CognomeNonValidoException se il cognome è nullo oppure se la sua lunghezza non rientra&#xD;&#xA;         nell'intervallo che va da {@link UtenteRegistrato#MIN_LUNGHEZZA_NOME} a&#xD;&#xA;         {@link UtenteRegistrato#MAX_LUNGHEZZA_NOME}&#xD;&#xA; &#xD;&#xA; @throws TelefonoNonValidoException se il numero di telefono del delegato non è specificato o&#xD;&#xA;         non rispetta il formato definito in {@link UtenteRegistrato#TELEFONO_PATTERN}&#xD;&#xA; &#xD;&#xA; @throws SessoNonValidoException se il sesso del delegato non è una delle costanti&#xD;&#xA;         {@link UtenteRegistrato#SESSO_MASCHILE} e {@link UtenteRegistrato#SESSO_FEMMINILE}&#xD;&#xA; &#xD;&#xA; @throws PartitaIvaAziendaNonValidaException se la partita IVA passata come parametro è nulla&#xD;&#xA;         oppure se non rispetta il formato {@link Azienda#PARTITA_IVA_PATTERN}&#xD;&#xA; &#xD;&#xA; @throws PartitaIvaAziendaEsistenteException se la partita IVA passata come parametro è già&#xD;&#xA;         presente nel sistema&#xD;&#xA; &#xD;&#xA; @throws NomeAziendaNonValidoException se il nome passato come parametro è nullo o se la sua&#xD;&#xA;         lunghezza non rientra nell'intervallo che va da&#xD;&#xA;         {@link UtenteRegistrato#MIN_LUNGHEZZA_NOME} a&#xD;&#xA;         {@link UtenteRegistrato#MAX_LUNGHEZZA_NOME}&#xD;&#xA; &#xD;&#xA; @throws IdAziendaNonValidoException se l'identificatore passato come parametro è nullo oppure&#xD;&#xA;         se non rispetta il formato {@link Azienda#ID_PATTERN}&#xD;&#xA; &#xD;&#xA; @throws IdAziendaEsistenteException se l'id specificato è già presente nel sistema&#xD;&#xA; &#xD;&#xA; @throws CommentoRichiestaConvenzionamentoNonValidoException se il commento passato come &#xD;&#xA;         parametro è nullo oppure è rappresentato da una stringa di lunghezza minore di 2&#xD;&#xA; &#xD;&#xA; @throws IndirizzoAziendaNonValidoException se l'indirizzo dell'azienda è nullo o se la sua&#xD;&#xA;         lunghezza non rientra nell'intervallo che va da {@link Azienda#MIN_LUNGHEZZA_INDIRIZZO}&#xD;&#xA;         a {@link Azienda#MAX_LUNGHEZZA_INDIRIZZO}&#xD;&#xA; &#xD;&#xA; @pre azienda != null&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bVr_E-riEeqFjdZbfQyFpw" name="azienda" type="_bTJoc-riEeqFjdZbfQyFpw"/>
+                <ownedParameter xmi:id="_bVr_FOriEeqFjdZbfQyFpw" type="_bTJoc-riEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bVubUOriEeqFjdZbfQyFpw" name="approvaRichiestaConvenzionamento" visibility="public">
+                <eAnnotations xmi:id="_bVubUeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVubUuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di approvare una richiesta di convenzionamento già presente nel sistema.&#xD;&#xA; &#xD;&#xA; @param idRichiesta Long che rappresenta l'identificatore della richiesta di convenzionamento&#xD;&#xA;                    da approvare&#xD;&#xA;                    &#xD;&#xA; @return richiesta oggetto {@link RichiestaConvenzionamento} che rappresenta la richiesta di &#xD;&#xA;         convenzionamento che è stata approvata&#xD;&#xA; &#xD;&#xA; @throws IdRichiestaConvenzionamentoNonValidoException se non esiste alcuna richiesta di&#xD;&#xA;         convenzionamento nel sistema con identificatore uguale ad idRichiesta&#xD;&#xA; &#xD;&#xA; @throws RichiestaConvenzionamentoGestitaException se la richiesta identificata da idRichiesta&#xD;&#xA;         si trova in uno stato diverso da quello in attesa&#xD;&#xA;         &#xD;&#xA; @throws RichiestaNonAutorizzataException se l'utente che richiede l'approvazione non è un&#xD;&#xA;         impiegato dell'ufficio tirocini&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bVubU-riEeqFjdZbfQyFpw" name="idRichiesta">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_bVubVOriEeqFjdZbfQyFpw" type="_bTPIAOriEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bVxeoOriEeqFjdZbfQyFpw" name="rifiutaRichiestaConvenzionamento" visibility="public">
+                <eAnnotations xmi:id="_bVxeoeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bVxeouriEeqFjdZbfQyFpw" key="documentation" value=" Permette di rifiutare una richiesta di convenzionamento già presente nel sistema.&#xD;&#xA; &#xD;&#xA; @param idRichiesta Long che rappresenta l'identificatore della richiesta di convenzionamento&#xD;&#xA;                    da rifiutare&#xD;&#xA; &#xD;&#xA; @return  richiesta oggetto {@link RichiestaConvenzionamento} che rappresenta la richiesta &#xD;&#xA;          di convenzionamento che è stata rifiutata&#xD;&#xA; &#xD;&#xA; @throws IdRichiestaConvenzionamentoNonValidoException se non esiste alcuna richiesta di&#xD;&#xA;         convenzionamento nel sistema con identificatore uguale ad idRichiesta&#xD;&#xA; &#xD;&#xA; @throws RichiestaConvenzionamentoGestitaException se la richiesta identificata da idRichiesta&#xD;&#xA;         si trova in uno stato diverso da quello in attesa&#xD;&#xA;         &#xD;&#xA; @throws CommentoRichiestaConvenzionamentoNonValidoException se il commento da associare alla&#xD;&#xA;         richiesta è nullo o vuoto&#xD;&#xA;         &#xD;&#xA; @throws RichiestaNonAutorizzataException se l'utente che richiede l'approvazione non è un&#xD;&#xA;         impiegato dell'ufficio tirocini &#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bVxeo-riEeqFjdZbfQyFpw" name="idRichiesta">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_bVxepOriEeqFjdZbfQyFpw" name="commento">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_bVxeperiEeqFjdZbfQyFpw" type="_bTPIAOriEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bV1wEOriEeqFjdZbfQyFpw" name="validaCommento" visibility="public">
+                <eAnnotations xmi:id="_bV1wEeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bV1wEuriEeqFjdZbfQyFpw" key="documentation" value=" Controlla che il commento sul rifiuto di una richiesta sia specificato.&#xD;&#xA; &#xD;&#xA; @param commento Stringa che rappresenta il commento da controllare&#xD;&#xA; &#xD;&#xA; @param richiesta {@link RichiestaConvenzionamento} che rapprensenta la richiesta a cui &#xD;&#xA;        associare il commento&#xD;&#xA; &#xD;&#xA; @return La stringa che rappresenta il commento da controllare bonificata&#xD;&#xA; &#xD;&#xA; @throws CommentoRichiestaConvenzionamentoNonValidoException se il commento passato come &#xD;&#xA;         parametro è nullo oppure è rappresentato da una stringa di lunghezza minore di 2&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bV1wE-riEeqFjdZbfQyFpw" name="commento">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_bV1wFOriEeqFjdZbfQyFpw" name="richiesta" type="_bTPIAOriEeqFjdZbfQyFpw"/>
+                <ownedParameter xmi:id="_bV1wFeriEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bV3lQOriEeqFjdZbfQyFpw" name="elencaRichiesteConvenzionamentoInAttesa" visibility="public">
+                <eAnnotations xmi:id="_bV3lQeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bV3lQuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere la lista delle richieste di convenzionamento non ancora approvate o &#xD;&#xA; rifiutate.&#xD;&#xA; &#xD;&#xA; @return Lista di {@link RichiestaConvenzionamento} il cui status è &quot;in attesa&quot;&#xD;&#xA; &#xD;&#xA; @throws RichiestaNonAutorizzataException se l'utente che tenta di visualizzare le richieste&#xD;&#xA;         di convenzionamento in attesa non è un impiegato dell'ufficio tirocini&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bV3lQ-riEeqFjdZbfQyFpw" type="_bT_V8eriEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bV5acOriEeqFjdZbfQyFpw" name="elencaAziendeConvenzionate" visibility="public">
+                <eAnnotations xmi:id="_bV5aceriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bV5acuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere la lista delle aziende convenzionate.&#xD;&#xA; &#xD;&#xA; @return Lista di {@link Azienda} le cui richieste di convenzionamento sono state approvate&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bV5ac-riEeqFjdZbfQyFpw" type="_bT_V8eriEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bV72sOriEeqFjdZbfQyFpw" name="ottieniAzienda" visibility="public">
+                <eAnnotations xmi:id="_bV72seriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bV72suriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere un'azienda presente nel sistema a partire dal suo identificatore.&#xD;&#xA; &#xD;&#xA; @param idAzienda Stringa che rappresenta l'identificatore dell'azienda che si vuole ottenere&#xD;&#xA; &#xD;&#xA; @return {@link Azienda} che rappresenta l'azienda cercata&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bV72s-riEeqFjdZbfQyFpw" name="idAzienda">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_bV72tOriEeqFjdZbfQyFpw" type="_bTJoc-riEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bV8dwOriEeqFjdZbfQyFpw" name="validaIdAzienda" visibility="public">
+                <eAnnotations xmi:id="_bV8dweriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bV8dwuriEeqFjdZbfQyFpw" key="documentation" value=" Controlla che l'identificatore di un'azienda sia specificato e che rispetti il formato&#xD;&#xA; prestabilito. Controlla inoltre che tale identificatore non sia già presente nel sistema.&#xD;&#xA; &#xD;&#xA; @param idAzienda Stringa che rappresenta l'identificatore da controllare&#xD;&#xA; &#xD;&#xA; @return La stringa che rappresenta l'identificatore da controllare bonificata&#xD;&#xA; &#xD;&#xA; @throws IdAziendaNonValidoException se l'identificatore passato come parametro è nullo oppure&#xD;&#xA;         se non rispetta il formato {@link Azienda#ID_PATTERN}&#xD;&#xA;         &#xD;&#xA; @throws IdAziendaEsistenteException se l'identificatore passato come parametro è già presente&#xD;&#xA;         nel sistema&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bV8dw-riEeqFjdZbfQyFpw" name="idAzienda">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_bV8dxOriEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bV9r4OriEeqFjdZbfQyFpw" name="validaNomeAzienda" visibility="public">
+                <eAnnotations xmi:id="_bV9r4eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bV9r4uriEeqFjdZbfQyFpw" key="documentation" value=" Controlla che il nome di un'azienda sia specificato e che la sua lunghezza rispetti i parametri&#xD;&#xA; prestabiliti.&#xD;&#xA; &#xD;&#xA; @param nomeAzienda Stringa che rappresenta il nome da controllare&#xD;&#xA; &#xD;&#xA; @return La stringa che rappresenta il nome da controllare bonificata&#xD;&#xA; &#xD;&#xA; @throws NomeAziendaNonValidoException se il nome passato come parametro è nullo o se la sua&#xD;&#xA;         lunghezza non rientra nell'intervallo che va da&#xD;&#xA;         {@link UtenteRegistrato#MIN_LUNGHEZZA_NOME} a&#xD;&#xA;         {@link UtenteRegistrato#MAX_LUNGHEZZA_NOME}&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bV9r4-riEeqFjdZbfQyFpw" name="nomeAzienda">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_bV9r5OriEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bV-S8OriEeqFjdZbfQyFpw" name="validaPartitaIvaAzienda" visibility="public">
+                <eAnnotations xmi:id="_bV-S8eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bV-S8uriEeqFjdZbfQyFpw" key="documentation" value=" Controlla che la partita IVA di un'azienda sia specificata e che rispetti il formato&#xD;&#xA; prestabilito. Controlla inoltre che tale partita IVA non sia già presente nel sistema.&#xD;&#xA; &#xD;&#xA; @param partitaIvaAzienda Stringa che rappresenta la partita iva da controllare&#xD;&#xA; &#xD;&#xA; @return La stringa che rappresenta la partita IVA da controllare bonificata&#xD;&#xA; &#xD;&#xA; @throws PartitaIvaAziendaNonValidaException se la partita IVA passata come parametro è nulla&#xD;&#xA;         oppure se non rispetta il formato {@link Azienda#PARTITA_IVA_PATTERN}&#xD;&#xA; &#xD;&#xA; @throws PartitaIvaAziendaEsistenteException se la partita IVA passata come parametro è già&#xD;&#xA;         presente nel sistema&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bV-S8-riEeqFjdZbfQyFpw" name="partitaIvaAzienda">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_bV-S9OriEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bV_hEOriEeqFjdZbfQyFpw" name="validaIndirizzoAzienda" visibility="public">
+                <eAnnotations xmi:id="_bV_hEeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bV_hEuriEeqFjdZbfQyFpw" key="documentation" value=" Controlla che l'indirizzo di un'azienda sia specificato e che la sua lunghezza rispetti i&#xD;&#xA; parametri prestabiliti.&#xD;&#xA; &#xD;&#xA; @param indirizzoAzienda Stringa che rappresenta l'indirizzo da controllare&#xD;&#xA; &#xD;&#xA; @return La stringa che rappresenta l'indirizzo da controllare bonificata&#xD;&#xA; &#xD;&#xA; @throws IndirizzoAziendaNonValidoException se l'indirizzo dell'azienda è nullo o se la sua&#xD;&#xA;         lunghezza non rientra nell'intervallo che va da {@link Azienda#MIN_LUNGHEZZA_INDIRIZZO}&#xD;&#xA;         a {@link Azienda#MAX_LUNGHEZZA_INDIRIZZO}&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bV_hE-riEeqFjdZbfQyFpw" name="indirizzoAzienda">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_bV_hFOriEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_bTLdo-riEeqFjdZbfQyFpw" name="DelegatoAziendale" visibility="public">
+              <eAnnotations xmi:id="_bTLdpOriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_bTLdperiEeqFjdZbfQyFpw" key="documentation" value=" Classe che modella un delegato rappresentante un'azienda convenzionata con il dipartimento.&#xD;&#xA; &lt;b>Questa classe non può essere istanziata dall'esterno ma sue istanze possono essere ottenute&#xD;&#xA; solo tramite {@link Azienda#getDelegato()}.&lt;/b>&#xD;&#xA; &#xD;&#xA; @see Azienda&#xD;&#xA;"/>
+              </eAnnotations>
+              <elementImport xmi:id="_bWAvMeriEeqFjdZbfQyFpw" importedElement="_bVa5UuriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bWAvMuriEeqFjdZbfQyFpw" importedElement="_bUZloOriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bWAvM-riEeqFjdZbfQyFpw" importedElement="_bUba0OriEeqFjdZbfQyFpw" visibility="private"/>
+              <generalization xmi:id="_bWAvMOriEeqFjdZbfQyFpw" general="_bVa5UuriEeqFjdZbfQyFpw"/>
+              <ownedAttribute xmi:id="_bWBWQOriEeqFjdZbfQyFpw" name="sesso" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bWBWQeriEeqFjdZbfQyFpw" name="telefono" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bWCkYOriEeqFjdZbfQyFpw" name="azienda" visibility="private" type="_bTJoc-riEeqFjdZbfQyFpw" association="_bW448OriEeqFjdZbfQyFpw">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bWCkYeriEeqFjdZbfQyFpw" name="" type="_bTJoc-riEeqFjdZbfQyFpw" value="&quot;delegato&quot;)&#xD;&#xA;  private Azienda azienda"/>
+              </ownedAttribute>
+              <ownedOperation xmi:id="_bWCkYuriEeqFjdZbfQyFpw" name="DelegatoAziendale">
+                <eAnnotations xmi:id="_bWCkY-riEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWCkZOriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un oggetto DelegatoAziendale vuoto.&#xD;&#xA; &lt;b>Questo costruttore non dev'essere mai utilizzato&lt;/b>, è presente solo per esigenze del&#xD;&#xA; container.&#xD;&#xA; "/>
+                </eAnnotations>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWEZkOriEeqFjdZbfQyFpw" name="DelegatoAziendale">
+                <eAnnotations xmi:id="_bWEZkeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWEZkuriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un oggetto DelegatoAziendale vuoto che dev'essere popolato tramite i metodi setters.&#xD;&#xA; Questo costruttore ha visibilità di pacchetto e non può essere utilizzato all'esterno. Istanze&#xD;&#xA; di questa classe si possono ottenere solo tramite {@link Azienda#getDelegato()}.&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWEZk-riEeqFjdZbfQyFpw" name="azienda" type="_bTJoc-riEeqFjdZbfQyFpw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWFnsOriEeqFjdZbfQyFpw" name="equals" visibility="public">
+                <eAnnotations xmi:id="_bWFnseriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWFnsuriEeqFjdZbfQyFpw" key="documentation" value=" Determina se due oggetti rappresentano lo stesso delegato guardando agli username dei suddetti.&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWFns-riEeqFjdZbfQyFpw" name="object" type="_bUynMOriEeqFjdZbfQyFpw"/>
+                <ownedParameter xmi:id="_bWFntOriEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWGOwOriEeqFjdZbfQyFpw" name="toString" visibility="public">
+                <eAnnotations xmi:id="_bWGOweriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWGOwuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di definire una stringa che può essere considerata come la &#xD;&#xA; &quot;rappresentazione testuale&quot; dell'oggetto Delegato Aziendale.&#xD;&#xA; &#xD;&#xA; @return Stringa che rappresenta una descrizione più accurata e consona dell'oggetto&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWGOw-riEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWG10OriEeqFjdZbfQyFpw" name="getSesso" visibility="public">
+                <eAnnotations xmi:id="_bWG10eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWG10uriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere il sesso del delegato aziendale.&#xD;&#xA; &#xD;&#xA; @return {@link UtenteRegistrato#SESSO_MASCHILE} se il delegato è uomo,&#xD;&#xA;         {@link UtenteRegistrato#SESSO_FEMMINILE} se invece è donna&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWG10-riEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWHc4OriEeqFjdZbfQyFpw" name="setSesso" visibility="public">
+                <eAnnotations xmi:id="_bWHc4eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWHc4uriEeqFjdZbfQyFpw" key="documentation" value=" Permette di specificare il sesso del delegato aziendale.&#xD;&#xA; &#xD;&#xA; @param sesso Stringa che rappresenta il sesso del delegato aziendale.&#xD;&#xA; &#xD;&#xA; @pre sesso.equals({@link UtenteRegistrato#SESSO_MASCHILE}) or&#xD;&#xA;      sesso.equals({@link UtenteRegistrato#SESSO_FEMMINILE})&#xD;&#xA;      &#xD;&#xA; @post getSesso() = sesso&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWHc4-riEeqFjdZbfQyFpw" name="sesso">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWID8OriEeqFjdZbfQyFpw" name="getTelefono" visibility="public">
+                <eAnnotations xmi:id="_bWID8eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWID8uriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere il numero di telefono del delegato aziendale.&#xD;&#xA; &#xD;&#xA; @return Stringa numerica che rappresenta il numero di telefono del delegato aziendale.&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWID8-riEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWJSEOriEeqFjdZbfQyFpw" name="setTelefono" visibility="public">
+                <eAnnotations xmi:id="_bWJSEeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWJSEuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di specificare il numero di telefono del delegato aziendale.&#xD;&#xA; &#xD;&#xA; @param telefono Stringa numerica che rappresenta il numero di telefono del delegato aziendale.&#xD;&#xA; &#xD;&#xA; @pre telefono.length() >= 10 and telefono.length() &lt;= 11&#xD;&#xA; @pre telefono matches {@link UtenteRegistrato#TELEFONO_PATTERN}&#xD;&#xA; &#xD;&#xA; @post getTelefono().equals(telefono)&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWJSE-riEeqFjdZbfQyFpw" name="telefono">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWKgMOriEeqFjdZbfQyFpw" name="getAzienda" visibility="public">
+                <eAnnotations xmi:id="_bWKgMeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWKgMuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere l'azienda che è rappresentata dal delegato aziendale.&#xD;&#xA; &#xD;&#xA; @return {@link Azienda} rappresentata dal delegato aziendale&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWKgM-riEeqFjdZbfQyFpw" type="_bTJoc-riEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_bTMEsOriEeqFjdZbfQyFpw" name="IdRichiestaConvenzionamentoNonValidoException" visibility="public">
+              <eAnnotations xmi:id="_bTMEseriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_bTMEsuriEeqFjdZbfQyFpw" key="documentation" value=" Eccezione lanciata quando si fa riferimento ad una richiesta di convenzionamento con un&#xD;&#xA; identificatore inesistente.&#xD;&#xA;"/>
+              </eAnnotations>
+              <generalization xmi:id="_bWLuUOriEeqFjdZbfQyFpw" general="_bTSyYeriEeqFjdZbfQyFpw"/>
+              <ownedAttribute xmi:id="_bWLuUeriEeqFjdZbfQyFpw" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bWMVYOriEeqFjdZbfQyFpw" name="" value="-5220806489819572756L">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bWMVYeriEeqFjdZbfQyFpw" name="messaggioDefault" visibility="private" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bWMVYuriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWMVY-riEeqFjdZbfQyFpw" key="documentation" value="Stringa che definisce il messaggio di default utilizzato nell'eccezione."/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bWMVZOriEeqFjdZbfQyFpw" name="" value="&quot;Richiesta di convenzionamento inesistente&quot;">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedOperation xmi:id="_bWMVZeriEeqFjdZbfQyFpw" name="IdRichiestaConvenzionamentoNonValidoException" visibility="public">
+                <eAnnotations xmi:id="_bWMVZuriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWMVZ-riEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio {@link #messaggioDefault}.&#xD;&#xA; "/>
+                </eAnnotations>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWM8cOriEeqFjdZbfQyFpw" name="IdRichiestaConvenzionamentoNonValidoException" visibility="public">
+                <eAnnotations xmi:id="_bWM8ceriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWM8curiEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio la stringa specificata come parametro.&#xD;&#xA; &#xD;&#xA; @param messaggio Stringa che rappresenta il messaggio da mostrare&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWM8c-riEeqFjdZbfQyFpw" name="messaggio">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_bTMrwOriEeqFjdZbfQyFpw" name="DelegatoAziendaleRepository" visibility="public">
+              <eAnnotations xmi:id="_bTMrweriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_bTMrwuriEeqFjdZbfQyFpw" key="documentation" value=" Classe che definisce le operazioni per la modellazione e l'accesso &#xD;&#xA; alle informazioni persistenti relative ad un Delegato Aziendale.&#xD;&#xA; &#xD;&#xA; @see DelegatoAziendale&#xD;&#xA;"/>
+              </eAnnotations>
+              <generalization xmi:id="_bWOxoOriEeqFjdZbfQyFpw" general="_bT-u4-riEeqFjdZbfQyFpw"/>
+              <ownedOperation xmi:id="_bWQm0OriEeqFjdZbfQyFpw" name="findByUsernameAndPassword">
+                <eAnnotations xmi:id="_bWQm0eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWQm0uriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere un delegato aziendale a partire dalle proprie credenziali di accesso.&#xD;&#xA; &#xD;&#xA; @param password Stringa che rappresenta la password del delegato aziendale&#xD;&#xA; @param username Stringa che rappresenta il nome utente del delegato aziendale     &#xD;&#xA; &#xD;&#xA; @return  Oggetto {@link DelegatoAziendale} che rappresenta il delegato aziendale. &lt;b>Può &#xD;&#xA;          essere null&lt;/b> se nel database non è presente un delegato aziendale &#xD;&#xA;          con username e password passati come parametro&#xD;&#xA; &#xD;&#xA; @pre username != null &amp;&amp; password != null&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWQm0-riEeqFjdZbfQyFpw" name="username">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_bWQm1OriEeqFjdZbfQyFpw" name="password">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_bWQm1eriEeqFjdZbfQyFpw" type="_bTLdo-riEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWScAOriEeqFjdZbfQyFpw" name="findByUsername">
+                <eAnnotations xmi:id="_bWScAeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWScAuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere un delegato aziendale a partire dal proprio nome utente.&#xD;&#xA; &#xD;&#xA; @param username Stringa che rappresenta il nome utente del delegato aziendale     &#xD;&#xA; &#xD;&#xA; @return Oggetto {@link DelegatoAziendale} che rappresenta il delegato aziendale. &lt;b>Può essere&#xD;&#xA;         null&lt;/b> se nel database non è presente un delegato aziendale &#xD;&#xA;         con l'username passata come parametro&#xD;&#xA;         &#xD;&#xA; @pre username != null&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWScA-riEeqFjdZbfQyFpw" name="username">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_bWScBOriEeqFjdZbfQyFpw" type="_bTLdo-riEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_bTNS0OriEeqFjdZbfQyFpw" name="RichiestaConvenzionamentoInAttesaException" visibility="public">
+              <eAnnotations xmi:id="_bTNS0eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_bTNS0uriEeqFjdZbfQyFpw" key="documentation" value=" Eccezione lanciata quando un delegato aziendale tenta di effettuare il login mentre la richiesta&#xD;&#xA; di convenzionamento associata all'azienda che rappresenta non è ancora stata gestita.&#xD;&#xA;"/>
+              </eAnnotations>
+              <generalization xmi:id="_bWTqIOriEeqFjdZbfQyFpw" general="_bTSyYeriEeqFjdZbfQyFpw"/>
+              <ownedAttribute xmi:id="_bWURMOriEeqFjdZbfQyFpw" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bWU4QOriEeqFjdZbfQyFpw" name="" value="-4412904414535817775L">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bWU4QeriEeqFjdZbfQyFpw" name="messaggioDefault" visibility="private" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bWU4QuriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWVfUOriEeqFjdZbfQyFpw" key="documentation" value="Stringa che definisce il messaggio di default utilizzato nell'eccezione."/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bWVfUeriEeqFjdZbfQyFpw" name="" value="&quot;Richiesta di convenzionamento non ancora gestita&quot;">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedOperation xmi:id="_bWVfUuriEeqFjdZbfQyFpw" name="RichiestaConvenzionamentoInAttesaException" visibility="public">
+                <eAnnotations xmi:id="_bWVfU-riEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWVfVOriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio {@link #messaggioDefault}.&#xD;&#xA; "/>
+                </eAnnotations>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWWGYOriEeqFjdZbfQyFpw" name="RichiestaConvenzionamentoInAttesaException" visibility="public">
+                <eAnnotations xmi:id="_bWWGYeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWWGYuriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio la stringa specificata come parametro.&#xD;&#xA; &#xD;&#xA; @param messaggio Stringa che rappresenta il messaggio da mostrare&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWWGY-riEeqFjdZbfQyFpw" name="messaggio">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_bTN54OriEeqFjdZbfQyFpw" name="RichiestaConvenzionamentoGestitaException" visibility="public">
+              <eAnnotations xmi:id="_bTN54eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_bTN54uriEeqFjdZbfQyFpw" key="documentation" value=" Eccezione lanciata quando si fa riferimento ad una richiesta di convenzionamento già gestita.&#xD;&#xA;"/>
+              </eAnnotations>
+              <generalization xmi:id="_bWX7kOriEeqFjdZbfQyFpw" general="_bTSyYeriEeqFjdZbfQyFpw"/>
+              <ownedAttribute xmi:id="_bWYioOriEeqFjdZbfQyFpw" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bWYioeriEeqFjdZbfQyFpw" name="" value="-5220806489819572756L">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bWYiouriEeqFjdZbfQyFpw" name="messaggioDefault" visibility="private" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bWZJsOriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWZJseriEeqFjdZbfQyFpw" key="documentation" value="Stringa che definisce il messaggio di default utilizzato nell'eccezione."/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bWZJsuriEeqFjdZbfQyFpw" name="" value="&quot;Richiesta di convenzionamento già gestita&quot;">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedOperation xmi:id="_bWZJs-riEeqFjdZbfQyFpw" name="RichiestaConvenzionamentoGestitaException" visibility="public">
+                <eAnnotations xmi:id="_bWZJtOriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWZJteriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio {@link #messaggioDefault}.&#xD;&#xA; "/>
+                </eAnnotations>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWZwwOriEeqFjdZbfQyFpw" name="RichiestaConvenzionamentoGestitaException" visibility="public">
+                <eAnnotations xmi:id="_bWZwweriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWZwwuriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio la stringa specificata come parametro.&#xD;&#xA; &#xD;&#xA; @param messaggio Stringa che rappresenta il messaggio da mostrare&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWZww-riEeqFjdZbfQyFpw" name="messaggio">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_bTN54-riEeqFjdZbfQyFpw" name="RichiestaConvenzionamentoRepository" visibility="public">
+              <eAnnotations xmi:id="_bTN55OriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_bTN55eriEeqFjdZbfQyFpw" key="documentation" value=" Classe che definisce le operazioni relative alla persistenza delle richieste di convenzionamento.&#xD;&#xA; &#xD;&#xA; @see RichiestaConvenzionamento&#xD;&#xA;"/>
+              </eAnnotations>
+              <generalization xmi:id="_bWcNAOriEeqFjdZbfQyFpw" general="_bT-u4-riEeqFjdZbfQyFpw"/>
+              <ownedOperation xmi:id="_bWepQOriEeqFjdZbfQyFpw" name="findAll">
+                <eAnnotations xmi:id="_bWepQeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWepQuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere l'elenco delle richieste di convenzionamento salvate nel database.&#xD;&#xA; &#xD;&#xA; @return Lista di {@link RichiestaConvenzionamento} che rappresenta la lista delle richieste &#xD;&#xA;         di convenzionamento&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWepQ-riEeqFjdZbfQyFpw" type="_bT_V8eriEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWf3YOriEeqFjdZbfQyFpw" name="findById">
+                <eAnnotations xmi:id="_bWf3YeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWf3YuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere una richiesta di convenzionamento a partire dal suo identificatore.&#xD;&#xA; &#xD;&#xA; @param id Numero di tipo long che rappresenta l'identificativo della richiesta di&#xD;&#xA;           convenzionamento&#xD;&#xA;           &#xD;&#xA; @return Oggetto {@link RichiestaConvenzionamento} che rappresenta la richiesta di &#xD;&#xA;         convenzionamento. &lt;b>Può essere null&lt;/b> se nel database non è presente &#xD;&#xA;         una richiesta di convenzionamento con l'id specificato come parametro&#xD;&#xA; &#xD;&#xA; @pre id > 0&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWf3Y-riEeqFjdZbfQyFpw" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_bWf3ZOriEeqFjdZbfQyFpw" type="_bTPIAOriEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWhFgOriEeqFjdZbfQyFpw" name="findAllByStatus">
+                <eAnnotations xmi:id="_bWhFgeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWhFguriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere l'elenco delle richieste di convenzionamento con un determinato status.&#xD;&#xA; &#xD;&#xA; @param status Intero che rappresenta lo stato assegnato alla richiesta di&#xD;&#xA;               convenzionamento&#xD;&#xA;           &#xD;&#xA; @return Lista di {@link RichiestaConvenzionamento} che rappresenta la lista delle richieste &#xD;&#xA;         di convenzionamento&#xD;&#xA;                                         &#xD;&#xA; @pre status = {@link RichiestaConvenzionamento#IN_ATTESA} or&#xD;&#xA;      status = {@link RichiestaConvenzionamento#APPROVATA} or&#xD;&#xA;      status = {@link RichiestaConvenzionamento#RIFIUTATA}&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWhFg-riEeqFjdZbfQyFpw" name="status">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_bWhFhOriEeqFjdZbfQyFpw" type="_bT_V8eriEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWhskOriEeqFjdZbfQyFpw" name="existsById">
+                <eAnnotations xmi:id="_bWhskeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWhskuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di verificare se una richiesta di convenzionamento esiste nel database attraverso il &#xD;&#xA; proprio identificatore.&#xD;&#xA; &#xD;&#xA; @param id Numero di tipo long che rappresenta l'identificativo della richiesta di&#xD;&#xA;           convenzionamento&#xD;&#xA;               &#xD;&#xA; @return true se la richiesta di convenzionamento esiste,&#xD;&#xA;         false se la richiesta di convenzionamento non esiste&#xD;&#xA;         &#xD;&#xA; @pre id > 0&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWhsk-riEeqFjdZbfQyFpw" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_bWhslOriEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_bTOg8OriEeqFjdZbfQyFpw" name="RichiestaConvenzionamentoRifiutataException" visibility="public">
+              <eAnnotations xmi:id="_bTOg8eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_bTOg8uriEeqFjdZbfQyFpw" key="documentation" value=" Eccezione lanciata quando un delegato aziendale tenta di effettuare il login mentre la richiesta&#xD;&#xA; di convenzionamento associata all'azienda che rappresenta è stata rifiutata.&#xD;&#xA;"/>
+              </eAnnotations>
+              <generalization xmi:id="_bWiToOriEeqFjdZbfQyFpw" general="_bTN54OriEeqFjdZbfQyFpw"/>
+              <ownedAttribute xmi:id="_bWi6sOriEeqFjdZbfQyFpw" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bWi6seriEeqFjdZbfQyFpw" name="" value="3285140313419999571L">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bWjhwOriEeqFjdZbfQyFpw" name="messaggioDefault" visibility="private" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bWjhweriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWjhwuriEeqFjdZbfQyFpw" key="documentation" value="Stringa che definisce il messaggio di default utilizzato nell'eccezione."/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bWjhw-riEeqFjdZbfQyFpw" name="" value="&quot;Richiesta di convenzionamento rifiutata&quot;">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedOperation xmi:id="_bWjhxOriEeqFjdZbfQyFpw" name="RichiestaConvenzionamentoRifiutataException" visibility="public">
+                <eAnnotations xmi:id="_bWjhxeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWjhxuriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio {@link #messaggioDefault}.&#xD;&#xA; "/>
+                </eAnnotations>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWjhx-riEeqFjdZbfQyFpw" name="RichiestaConvenzionamentoRifiutataException" visibility="public">
+                <eAnnotations xmi:id="_bWjhyOriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWjhyeriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un'eccezione che ha come messaggio la stringa specificata come parametro.&#xD;&#xA; &#xD;&#xA; @param messaggio Stringa che rappresenta il messaggio da mostrare&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWjhyuriEeqFjdZbfQyFpw" name="messaggio">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_bTPIAOriEeqFjdZbfQyFpw" name="RichiestaConvenzionamento" visibility="public">
+              <eAnnotations xmi:id="_bTPIAeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_bTPIAuriEeqFjdZbfQyFpw" key="documentation" value=" Classe che modella una richiesta di convenzionamento con il dipartimento.&#xD;&#xA; &lt;b>Questa classe non può essere istanziata dall'esterno ma sue istanze possono essere ottenute&#xD;&#xA; solo tramite {@link Azienda#getRichiesta()}.&lt;/b>&#xD;&#xA; &#xD;&#xA; @see Azienda&#xD;&#xA;"/>
+              </eAnnotations>
+              <elementImport xmi:id="_bWkI0OriEeqFjdZbfQyFpw" importedElement="_bVbgY-riEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bWkI0eriEeqFjdZbfQyFpw" importedElement="_bUZloOriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bWkv4eriEeqFjdZbfQyFpw" importedElement="_bWkv4OriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bWkv4-riEeqFjdZbfQyFpw" importedElement="_bWkv4uriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bWkv5OriEeqFjdZbfQyFpw" importedElement="_bUaMseriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bWlW8eriEeqFjdZbfQyFpw" importedElement="_bWlW8OriEeqFjdZbfQyFpw" visibility="private"/>
+              <elementImport xmi:id="_bWlW8uriEeqFjdZbfQyFpw" importedElement="_bUba0OriEeqFjdZbfQyFpw" visibility="private"/>
+              <ownedAttribute xmi:id="_bWlW8-riEeqFjdZbfQyFpw" name="id" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bWlW9OriEeqFjdZbfQyFpw" name="" value="GenerationType.AUTO)&#xD;&#xA;  private long id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bWl-AOriEeqFjdZbfQyFpw" name="status" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bWmlEOriEeqFjdZbfQyFpw" name="dataRichiesta" visibility="private" type="_bVbgY-riEeqFjdZbfQyFpw"/>
+              <ownedAttribute xmi:id="_bWnMIOriEeqFjdZbfQyFpw" name="commentoUfficioTirocini" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bWnzMOriEeqFjdZbfQyFpw" name="azienda" visibility="private" type="_bTJoc-riEeqFjdZbfQyFpw" association="_bW5gAOriEeqFjdZbfQyFpw">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_bWnzMeriEeqFjdZbfQyFpw" name="" type="_bTJoc-riEeqFjdZbfQyFpw" value="&quot;richiestaConvenzionamento&quot;)&#xD;&#xA;  private Azienda azienda"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bWoaQOriEeqFjdZbfQyFpw" name="IN_ATTESA" visibility="public" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bWoaQeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWoaQuriEeqFjdZbfQyFpw" key="documentation" value=" Costante che rappresenta lo stato &quot;in attesa&quot; di una richiesta di convenzionamento.&#xD;&#xA; Una richiesta si trova in questo stato quando non è ancora stata gestita dall'ufficio tirocini.&#xD;&#xA; "/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_bWoaQ-riEeqFjdZbfQyFpw" name="">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bWoaROriEeqFjdZbfQyFpw" name="APPROVATA" visibility="public" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bWoaReriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWoaRuriEeqFjdZbfQyFpw" key="documentation" value=" Costante che rappresenta lo stato &quot;approvato&quot; di una richiesta di convenzionamento.&#xD;&#xA; Una richiesta si trova in questo stato quando è stata esaminata ed approvata dall'ufficio&#xD;&#xA; tirocini.&#xD;&#xA; "/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_bWoaR-riEeqFjdZbfQyFpw" name="" value="1">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bWpBUOriEeqFjdZbfQyFpw" name="RIFIUTATA" visibility="public" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bWpBUeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWpBUuriEeqFjdZbfQyFpw" key="documentation" value=" Costante che rappresenta lo stato &quot;rifiutato&quot; di una richiesta di convenzionamento.&#xD;&#xA; Una richiesta si trova in questo stato quando è stata esaminata e rifiutata dall'ufficio&#xD;&#xA; tirocini.&#xD;&#xA; "/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_bWpBU-riEeqFjdZbfQyFpw" name="" value="2">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_bWpBVOriEeqFjdZbfQyFpw" name="MIN_LUNGHEZZA_COMMENTO" visibility="public" isLeaf="true" isStatic="true">
+                <eAnnotations xmi:id="_bWpoYOriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWpoYeriEeqFjdZbfQyFpw" key="documentation" value="Costante che definisce la minima lunghezza del campo commentoUfficioTirocini."/>
+                </eAnnotations>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_bWpoYuriEeqFjdZbfQyFpw" name="" value="2">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedOperation xmi:id="_bWpoY-riEeqFjdZbfQyFpw" name="RichiestaConvenzionamento">
+                <eAnnotations xmi:id="_bWpoZOriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWpoZeriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un oggetto RichiestaConvenzionamento vuoto.&#xD;&#xA; &lt;b>Questo costruttore non dev'essere mai utilizzato&lt;/b>, è presente solo per esigenze del&#xD;&#xA; container.&#xD;&#xA; "/>
+                </eAnnotations>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWrdkOriEeqFjdZbfQyFpw" name="RichiestaConvenzionamento">
+                <eAnnotations xmi:id="_bWrdkeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWrdkuriEeqFjdZbfQyFpw" key="documentation" value=" Costruisce un oggetto RichiestaConvenzionamento vuoto che dev'essere popolato tramite i metodi&#xD;&#xA; setters.&#xD;&#xA; Questo costruttore ha visibilità di pacchetto e non può essere utilizzato all'esterno. Istanze&#xD;&#xA; di questa classe si possono ottenere solo tramite {@link Azienda#getRichiesta()}.&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWrdk-riEeqFjdZbfQyFpw" name="azienda" type="_bTJoc-riEeqFjdZbfQyFpw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWsrsOriEeqFjdZbfQyFpw" name="equals" visibility="public">
+                <eAnnotations xmi:id="_bWsrseriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWsrsuriEeqFjdZbfQyFpw" key="documentation" value=" Determina se due oggetti rappresentano la stessa richiesta di convenzionamento in base&#xD;&#xA; all'identificatore.&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWsrs-riEeqFjdZbfQyFpw" name="object" type="_bUynMOriEeqFjdZbfQyFpw"/>
+                <ownedParameter xmi:id="_bWsrtOriEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWtSwOriEeqFjdZbfQyFpw" name="toString" visibility="public">
+                <eAnnotations xmi:id="_bWtSweriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWtSwuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di definire una stringa che può essere considerata come la &#xD;&#xA; &quot;rappresentazione testuale&quot; dell'oggetto RichiestaConvenzionamento.&#xD;&#xA; &#xD;&#xA; @return Stringa che rappresenta una descrizione più accurata e consona dell'oggetto&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWtSw-riEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWt50OriEeqFjdZbfQyFpw" name="getId" visibility="public">
+                <eAnnotations xmi:id="_bWt50eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWt50uriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere l'identificatore della richiesta di convenzionamento.&#xD;&#xA; &#xD;&#xA; @return Long che rappresenta l'identificatore della richiesta di convenzionamento&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWt50-riEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWt51OriEeqFjdZbfQyFpw" name="getStatus" visibility="public">
+                <eAnnotations xmi:id="_bWt51eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWug4OriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere lo stato della richiesta di convenzionamento.&#xD;&#xA; &#xD;&#xA; @return {@link RichiestaConvenzionamento#IN_ATTESA} se la richiesta è in attesa,&#xD;&#xA;         {@link RichiestaConvenzionamento#APPROVATA} se la richiesta è approvata,&#xD;&#xA;         {@link RichiestaConvenzionamento#RIFIUTATA} se la richiesta è rifiutata&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWug4eriEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWvvAOriEeqFjdZbfQyFpw" name="setStatus" visibility="public">
+                <eAnnotations xmi:id="_bWvvAeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWvvAuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di specificare lo stato della richiesta di convenzionamento.&#xD;&#xA; &#xD;&#xA; @param status Intero che rappresenta lo stato che si vuole assegnare alla richiesta di&#xD;&#xA;               convenzionamento&#xD;&#xA;               &#xD;&#xA; @pre status = {@link RichiestaConvenzionamento#IN_ATTESA} or&#xD;&#xA;      status = {@link RichiestaConvenzionamento#APPROVATA} or&#xD;&#xA;      status = {@link RichiestaConvenzionamento#RIFIUTATA}&#xD;&#xA;      &#xD;&#xA; @post getStatus() = status&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWvvA-riEeqFjdZbfQyFpw" name="status">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWw9IOriEeqFjdZbfQyFpw" name="getDataRichiesta" visibility="public">
+                <eAnnotations xmi:id="_bWw9IeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWw9IuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere la data e l'ora in cui è stata inviata la richiesta.&#xD;&#xA; &#xD;&#xA; @return La data e l'ora in cui è stata inviata la richiesta&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWw9I-riEeqFjdZbfQyFpw" type="_bVbgY-riEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWxkMOriEeqFjdZbfQyFpw" name="getCommentoUfficioTirocini" visibility="public">
+                <eAnnotations xmi:id="_bWxkMeriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWxkMuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere il commento alla richiesta fatto dall'ufficio tirocini.&#xD;&#xA;   &#xD;&#xA; @return La stringa che rappresenta il commento alla richiesta da parte dell'ufficio tirocini&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWxkM-riEeqFjdZbfQyFpw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bWyyUOriEeqFjdZbfQyFpw" name="setCommentoUfficioTirocini" visibility="public">
+                <eAnnotations xmi:id="_bWzZYOriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bWzZYeriEeqFjdZbfQyFpw" key="documentation" value=" Permette di specificare il commento alla richiesta da parte dell'ufficio tirocini.&#xD;&#xA; &#xD;&#xA; @param commentoUfficioTirocini Stringa che rappresenta il commento che si vuole assegnare&#xD;&#xA;                                alla richiesta&#xD;&#xA;                                &#xD;&#xA; @pre commentoUfficioTirocini != null&#xD;&#xA; &#xD;&#xA; @post getCommentoUfficioTirocini().equals(commentoUfficioTirocini)&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bWzZYuriEeqFjdZbfQyFpw" name="commentoUfficioTirocini">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bW3DwOriEeqFjdZbfQyFpw" name="setDataRichiesta" visibility="public">
+                <eAnnotations xmi:id="_bW3DweriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bW3DwuriEeqFjdZbfQyFpw" key="documentation" value=" Permette di specificare la data e l'ora in cui è stata inviata la richiesta di&#xD;&#xA; convenzionamento.&#xD;&#xA;  &#xD;&#xA; @param dataRichiesta Oggetto LocalDateTime che rappresenta la data e l'ora in cui è stata&#xD;&#xA;                      inviata la richiesta di convenzionamento.&#xD;&#xA; &#xD;&#xA; @pre dataRichiesta != null&#xD;&#xA; &#xD;&#xA; @post getDataRichiesta().equals(dataRichiesta)&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bW3Dw-riEeqFjdZbfQyFpw" name="dataRichiesta" type="_bVbgY-riEeqFjdZbfQyFpw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_bW4R4OriEeqFjdZbfQyFpw" name="getAzienda" visibility="public">
+                <eAnnotations xmi:id="_bW4R4eriEeqFjdZbfQyFpw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                  <details xmi:id="_bW4R4uriEeqFjdZbfQyFpw" key="documentation" value=" Permette di ottenere l'azienda associata alla richiesta di convenzionamento.&#xD;&#xA; &#xD;&#xA; @return L'oggetto {@link Azienda} che rappresenta l'azienda associata alla richiesta di&#xD;&#xA;         convenzionamento&#xD;&#xA; "/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_bW4R4-riEeqFjdZbfQyFpw" type="_bTJoc-riEeqFjdZbfQyFpw" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_bW448OriEeqFjdZbfQyFpw" name="delegato_azienda" memberEnd="_bUhhcOriEeqFjdZbfQyFpw _bWCkYOriEeqFjdZbfQyFpw"/>
+            <packagedElement xmi:type="uml:Association" xmi:id="_bW5gAOriEeqFjdZbfQyFpw" name="richiestaConvenzionamento_azienda" memberEnd="_bUoPIOriEeqFjdZbfQyFpw _bWnzMOriEeqFjdZbfQyFpw"/>
+            <packagedElement xmi:type="uml:Association" xmi:id="_bW5gAeriEeqFjdZbfQyFpw" name="aziendaRepository_target" memberEnd="_bVfKwOriEeqFjdZbfQyFpw _bW5gAuriEeqFjdZbfQyFpw">
+              <ownedEnd xmi:id="_bW5gAuriEeqFjdZbfQyFpw" name="target" type="_bTLdoOriEeqFjdZbfQyFpw" association="_bW5gAeriEeqFjdZbfQyFpw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_bW5gA-riEeqFjdZbfQyFpw" name="richiestaConvenzionamentoRepository_target" memberEnd="_bVhnAOriEeqFjdZbfQyFpw _bW5gBOriEeqFjdZbfQyFpw">
+              <ownedEnd xmi:id="_bW5gBOriEeqFjdZbfQyFpw" name="target" type="_bTLdoOriEeqFjdZbfQyFpw" association="_bW5gA-riEeqFjdZbfQyFpw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_bXG7YOriEeqFjdZbfQyFpw" name="convenzioni_util" client="_bS_QZOriEeqFjdZbfQyFpw" supplier="_bT_V8OriEeqFjdZbfQyFpw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_bXHicOriEeqFjdZbfQyFpw" name="convenzioni_repository" client="_bS_QZOriEeqFjdZbfQyFpw" supplier="_bT-u4uriEeqFjdZbfQyFpw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_bXHiceriEeqFjdZbfQyFpw" name="convenzioni_stereotype" client="_bS_QZOriEeqFjdZbfQyFpw" supplier="_bUAkEOriEeqFjdZbfQyFpw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_bXHicuriEeqFjdZbfQyFpw" name="convenzioni_progettiformativi" client="_bS_QZOriEeqFjdZbfQyFpw" supplier="_bUYXgOriEeqFjdZbfQyFpw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_bXHic-riEeqFjdZbfQyFpw" name="convenzioni_persistence" client="_bS_QZOriEeqFjdZbfQyFpw" supplier="_bUY-k-riEeqFjdZbfQyFpw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_bXHidOriEeqFjdZbfQyFpw" name="convenzioni_impiegati" client="_bS_QZOriEeqFjdZbfQyFpw" supplier="_bVX2AOriEeqFjdZbfQyFpw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_bXHideriEeqFjdZbfQyFpw" name="convenzioni_mailsender" client="_bS_QZOriEeqFjdZbfQyFpw" supplier="_bVYdEOriEeqFjdZbfQyFpw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_bXIJgOriEeqFjdZbfQyFpw" name="convenzioni_utenza" client="_bS_QZOriEeqFjdZbfQyFpw" supplier="_bVYdE-riEeqFjdZbfQyFpw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_bXIJgeriEeqFjdZbfQyFpw" name="convenzioni_time" client="_bS_QZOriEeqFjdZbfQyFpw" supplier="_bVbgYuriEeqFjdZbfQyFpw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_bXIJguriEeqFjdZbfQyFpw" name="convenzioni_annotation" client="_bS_QZOriEeqFjdZbfQyFpw" supplier="_bVcHcuriEeqFjdZbfQyFpw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_bXIJg-riEeqFjdZbfQyFpw" name="convenzioni_annotation" client="_bS_QZOriEeqFjdZbfQyFpw" supplier="_bVcuguriEeqFjdZbfQyFpw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_bUYXgOriEeqFjdZbfQyFpw" name="progettiformativi">
+            <packagedElement xmi:type="uml:DataType" xmi:id="_bUYXgeriEeqFjdZbfQyFpw" name="ProgettoFormativo"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_bVX2AOriEeqFjdZbfQyFpw" name="impiegati">
+            <packagedElement xmi:type="uml:DataType" xmi:id="_bVX2AeriEeqFjdZbfQyFpw" name="ImpiegatoUfficioTirocini"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_bVYdEOriEeqFjdZbfQyFpw" name="mailsender">
+            <packagedElement xmi:type="uml:DataType" xmi:id="_bVYdEeriEeqFjdZbfQyFpw" name="TirocinioSmartMailSender"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_bVYdE-riEeqFjdZbfQyFpw" name="utenza">
+            <packagedElement xmi:type="uml:DataType" xmi:id="_bVYdFOriEeqFjdZbfQyFpw" name="CognomeNonValidoException"/>
+            <packagedElement xmi:type="uml:DataType" xmi:id="_bVYdFuriEeqFjdZbfQyFpw" name="EmailEsistenteException"/>
+            <packagedElement xmi:type="uml:DataType" xmi:id="_bVZEIOriEeqFjdZbfQyFpw" name="EmailNonValidaException"/>
+            <packagedElement xmi:type="uml:DataType" xmi:id="_bVZEIuriEeqFjdZbfQyFpw" name="NomeNonValidoException"/>
+            <packagedElement xmi:type="uml:DataType" xmi:id="_bVZrMOriEeqFjdZbfQyFpw" name="PasswordNonValidaException"/>
+            <packagedElement xmi:type="uml:DataType" xmi:id="_bVZrMuriEeqFjdZbfQyFpw" name="RichiestaNonAutorizzataException"/>
+            <packagedElement xmi:type="uml:DataType" xmi:id="_bVaSQOriEeqFjdZbfQyFpw" name="SessoNonValidoException"/>
+            <packagedElement xmi:type="uml:DataType" xmi:id="_bVaSQuriEeqFjdZbfQyFpw" name="TelefonoNonValidoException"/>
+            <packagedElement xmi:type="uml:DataType" xmi:id="_bVaSROriEeqFjdZbfQyFpw" name="UsernameEsistenteException"/>
+            <packagedElement xmi:type="uml:DataType" xmi:id="_bVa5UOriEeqFjdZbfQyFpw" name="UsernameNonValidoException"/>
+            <packagedElement xmi:type="uml:DataType" xmi:id="_bVa5UuriEeqFjdZbfQyFpw" name="UtenteRegistrato"/>
+            <packagedElement xmi:type="uml:DataType" xmi:id="_bVbgYOriEeqFjdZbfQyFpw" name="UtenzaService"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_bTSLUOriEeqFjdZbfQyFpw" name="java">
+    <packagedElement xmi:type="uml:Package" xmi:id="_bTSyYOriEeqFjdZbfQyFpw" name="lang">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_bTSyYeriEeqFjdZbfQyFpw" name="Exception"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_bUynMOriEeqFjdZbfQyFpw" name="Object"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_bT_V8OriEeqFjdZbfQyFpw" name="util">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_bT_V8eriEeqFjdZbfQyFpw" name="List"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_bUYXg-riEeqFjdZbfQyFpw" name="ArrayList"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_bVbgYuriEeqFjdZbfQyFpw" name="time">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_bVbgY-riEeqFjdZbfQyFpw" name="LocalDateTime"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_bT-H0OriEeqFjdZbfQyFpw" name="org">
+    <packagedElement xmi:type="uml:Package" xmi:id="_bT-H0eriEeqFjdZbfQyFpw" name="springframework">
+      <packagedElement xmi:type="uml:Package" xmi:id="_bT-u4OriEeqFjdZbfQyFpw" name="data">
+        <packagedElement xmi:type="uml:Package" xmi:id="_bT-u4eriEeqFjdZbfQyFpw" name="jpa">
+          <packagedElement xmi:type="uml:Package" xmi:id="_bT-u4uriEeqFjdZbfQyFpw" name="repository">
+            <packagedElement xmi:type="uml:DataType" xmi:id="_bT-u4-riEeqFjdZbfQyFpw" name="JpaRepository"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_bUAkEOriEeqFjdZbfQyFpw" name="stereotype">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_bUBLIOriEeqFjdZbfQyFpw" name="Repository"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_bVcHderiEeqFjdZbfQyFpw" name="Service"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_bVcHcOriEeqFjdZbfQyFpw" name="beans">
+        <packagedElement xmi:type="uml:Package" xmi:id="_bVcHceriEeqFjdZbfQyFpw" name="factory">
+          <packagedElement xmi:type="uml:Package" xmi:id="_bVcHcuriEeqFjdZbfQyFpw" name="annotation">
+            <packagedElement xmi:type="uml:DataType" xmi:id="_bVcHc-riEeqFjdZbfQyFpw" name="Autowired"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_bVcugeriEeqFjdZbfQyFpw" name="transaction">
+        <packagedElement xmi:type="uml:Package" xmi:id="_bVcuguriEeqFjdZbfQyFpw" name="annotation">
+          <packagedElement xmi:type="uml:DataType" xmi:id="_bVcug-riEeqFjdZbfQyFpw" name="Transactional"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_bUY-kuriEeqFjdZbfQyFpw" name="javax">
+    <packagedElement xmi:type="uml:Package" xmi:id="_bUY-k-riEeqFjdZbfQyFpw" name="persistence">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_bUY-lOriEeqFjdZbfQyFpw" name="CascadeType"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_bUZloOriEeqFjdZbfQyFpw" name="Entity"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_bUZlouriEeqFjdZbfQyFpw" name="FetchType"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_bUaMseriEeqFjdZbfQyFpw" name="Id"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_bUazwOriEeqFjdZbfQyFpw" name="OneToMany"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_bUba0OriEeqFjdZbfQyFpw" name="OneToOne"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_bWkv4OriEeqFjdZbfQyFpw" name="GeneratedValue"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_bWkv4uriEeqFjdZbfQyFpw" name="GenerationType"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_bWlW8OriEeqFjdZbfQyFpw" name="Lob"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

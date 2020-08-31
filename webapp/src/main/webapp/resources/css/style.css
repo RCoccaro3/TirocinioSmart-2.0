@@ -1,0 +1,173 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: url(/resources/images/backgrounds/background.png);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+#navbar {
+	margin-bottom: 10px;
+	z-index: 10;
+}
+
+#navbar > div.row {
+	margin-bottom: 0;
+}
+
+#navbar a.brand-logo {
+	display: flex;
+	align-items:center;
+}
+
+#navbar .brand-logo img {
+  height: 56px;
+  margin-right: 10px;
+}
+
+#navbar .tabs .tab {
+	position: relative;
+}
+
+#navbar .tabs .tab a.active:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 2px;
+	background: #fff;
+}
+
+form .row.heading {
+	margin-bottom: 20px;
+}
+
+form .row, .modal .row, .card div.row:last-child, .collapsible-body > .row:last-child {
+	margin-bottom: 0;
+}
+
+.input-field .helper-text {
+	margin-left: 3rem;
+}
+
+.material-icons.prefix {
+	line-height: 3rem;
+}
+
+form .row.date-input {
+	margin-bottom: 20px;
+}
+
+form .row.date-input .row-label {
+	margin-left: 3rem;
+}
+
+form .row.date-input .input-field {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.card.single-row-header .card-title {
+	margin-bottom: 0;
+}
+
+a.tooltipped.tooltipped-icon {
+	display: flex;
+	color: rgba(0,0,0,0.87);
+}
+
+.collapsible-body > .row > .col:last-child > .row {
+	margin-bottom: 0;
+}
+
+.collapsible-body i.small {
+	font-size: 1.6rem;
+}
+
+.card.list > .card-content > .row {
+	margin-bottom: 0;
+	padding: 20px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.card.list > .card-content > .row h5 {
+  margin-top: 0;
+}
+
+.vertical-nav .card-content {
+	padding: 0;
+}
+
+.vertical-nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+.vertical-nav li {
+	float: none;
+  line-height: 48px;
+}
+
+.vertical-nav li.active {
+	background-color: rgba(50,50,50,0.06);
+}
+
+.vertical-nav li > a {
+	color: rgba(0,0,0,0.87);
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+	height: 48px;
+	line-height: 48px;
+	padding: 0 32px;
+}
+
+.vertical-nav li > a:hover {
+	background-color: rgba(0,0,0,0.05);
+}
+
+.vertical-nav li > a > i {
+	float: left;
+	height: 48px;
+	line-height: 48px;
+	margin: 0 32px 0 0;
+	width: 24px;
+	color: rgba(0,0,0,0.54);
+}
+
+.collapsible span.badge {
+	margin-left: 14px;
+	min-width: 70px;
+}
+
+.new badge {
+	margin-top: 14px;
+}
+
+.sidenav .collapsible-header  {
+  padding: 0 32px;
+}
+
+.sidenav .collapsible-body a {
+  padding: 0 37.5px 0 45px !important;
+}
+
+@media (max-width: 600px) {
+  #navbar .brand-logo img {
+    height: 48px;
+  }
+  
+  .container {
+    width: 100%
+  }
+}

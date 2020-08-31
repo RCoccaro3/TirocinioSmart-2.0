@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>it.unisa.di.tirociniosmart</groupId>
+  <artifactId>webapp</artifactId>
+  <version>1.0.0</version>
+  <packaging>war</packaging>
+
+  <name>webapp</name>
+  <description>
+    Applicazione web per la gestione dei tirocini formativi sviluppata per il Dipartimento di
+    Informatica dell&#39;Università degli Studi di Salerno
+  </description>
+
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>1.5.9.RELEASE</version>
+    <relativePath/> <!-- lookup parent from repository -->
+  </parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+	  <!-- Spring Boot -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-tomcat</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
+    </dependency>
+    	<!-- send email -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-mail</artifactId>
+    </dependency>
+
+    <!-- Servlet, JSP & Jasper -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.1.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet.jsp</groupId>
+      <artifactId>javax.servlet.jsp-api</artifactId>
+      <version>2.3.1</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat.embed</groupId>
+      <artifactId>tomcat-embed-jasper</artifactId>
+      <scope>provided</scope>
+    </dependency>
+
+    <!-- JSTL -->
+    <dependency>
+      <groupId>jstl</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
+    
+    <!-- Hibernate-Java8 -->
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-java8</artifactId>
+    </dependency>
+
+	<!-- Java Mail API -->
+	<dependency>
+		<groupId>javax.mail</groupId>
+     	<artifactId>mail</artifactId>
+	 	<version>1.4.3</version>
+	</dependency>
+		
+    <!-- MySQL -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <scope>runtime</scope>
+      <version>8.0.17</version>
+    </dependency>
+    
+    <!-- Hamcrest -->
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>java-hamcrest</artifactId>
+      <version>2.0.0.0</version>
+    </dependency>
+    
+    <!-- Spring DevTools -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-devtools</artifactId>
+      <optional>true</optional>
+    </dependency>
+    
+    <!-- PowerMockito for Mockito -->
+  	<dependency>
+    	<groupId>org.powermock</groupId>
+   		<artifactId>powermock-module-junit4</artifactId>
+    	<version>1.7.3</version>
+   		<scope>test</scope>
+		</dependency>
+  	<dependency>
+			<groupId>org.powermock</groupId>
+   	  <artifactId>powermock-api-mockito</artifactId>
+   	  <version>1.7.3</version>
+    	<scope>test</scope>
+		</dependency>
+		
+  	</dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <configuration>
+          <tags>
+            <tag>
+              <name>pre</name>
+              <placement>a</placement>
+              <head>Precondizioni:</head>
+            </tag>
+            <tag>
+              <name>post</name>
+              <placement>a</placement>
+              <head>Postcondizioni:</head>
+            </tag>
+            <tag>
+              <name>inv</name>
+              <placement>a</placement>
+              <head>Invarianti:</head>
+            </tag>
+            <tag>
+              <name>test</name>
+              <placement>a</placement>
+              <head>Metodi testati:</head>
+            </tag>
+            <tag>
+              <name>result</name>
+              <placement>a</placement>
+              <head>Risultato del test:</head>
+            </tag>
+          </tags>
+          <additionalparam>-Xdoclint:none</additionalparam>
+        </configuration>      	       
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-failsafe-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>integration-test</id>
+            <goals>
+              <goal>integration-test</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>verify</id>
+            <goals>
+              <goal>verify</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+    <finalName>TirocinioSmart</finalName>
+  </build>
+
+</project>
