@@ -1,0 +1,1321 @@
+{
+  "id": "c4ce5e7f-2e44-4190-a03c-7bfe9b80a00d",
+  "version": "2.0",
+  "name": "TirocinioSmart2.0-TestingDiSistema",
+  "url": "http://localhost:8080/",
+  "tests": [{
+    "id": "c62e5adc-a117-4bc3-a853-17d71316c4eb",
+    "name": "TC_GRT_1_1:AggiuntaAttivitàTirocinio_NomeNonValido",
+    "commands": [{
+      "id": "8d14b4b8-fda5-4b33-b2df-077694688df9",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb37e6ce-4a8d-43a7-a570-1f626acd5514",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b13999af-6d8e-4be9-8232-e948b245e3eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tab:nth-child(3) > a",
+      "targets": [
+        ["css=.tab:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Dashboard')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/dashboard')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50dd237d-2001-416e-a4ab-0c11c018b1df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.large",
+      "targets": [
+        ["css=.large", "css:finder"],
+        ["xpath=//div[2]/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'assignment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b633ab0-3d0d-4bbc-a7d6-f1b29d58df5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.large",
+      "targets": [
+        ["css=.large", "css:finder"],
+        ["xpath=//div[2]/div/div/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3de160b-588c-4937-8267-1ad76322ecea",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=aggiungi-attività-tirocinio",
+      "targets": [
+        ["id=aggiungi-attività-tirocinio", "id"],
+        ["css=#aggiungi-attivit\\E0-tirocinio", "css:finder"],
+        ["xpath=//div[@id='aggiungi-attività-tirocinio']", "xpath:attributes"],
+        ["xpath=//main/div[2]", "xpath:position"]
+      ],
+      "value": "834.3999938964844,448.7624969482422"
+    }, {
+      "id": "102df6e4-10d1-40a0-8bfc-0f0fe56509ac",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=aggiungi-attività-tirocinio",
+      "targets": [
+        ["id=aggiungi-attività-tirocinio", "id"],
+        ["css=#aggiungi-attivit\\E0-tirocinio", "css:finder"],
+        ["xpath=//div[@id='aggiungi-attività-tirocinio']", "xpath:attributes"],
+        ["xpath=//main/div[2]", "xpath:position"]
+      ],
+      "value": "834.3999938964844,448.7624969482422"
+    }, {
+      "id": "013e9094-ff47-4ab2-8318-0e679b445a9d",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=aggiungi-attività-tirocinio",
+      "targets": [
+        ["id=aggiungi-attività-tirocinio", "id"],
+        ["css=#aggiungi-attivit\\E0-tirocinio", "css:finder"],
+        ["xpath=//div[@id='aggiungi-attività-tirocinio']", "xpath:attributes"],
+        ["xpath=//main/div[2]", "xpath:position"]
+      ],
+      "value": "834.3999938964844,448.7624969482422"
+    }, {
+      "id": "54108db3-b1dc-4f43-abef-0e64af219671",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@name='action'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4dcfe498-c9aa-4dc8-ae62-2709d5a5dcfa",
+    "name": "TC_GRT_1_2:AggiuntaAttivitàTirocinio_DescrizioneNonValida",
+    "commands": [{
+      "id": "92472d2c-4090-44d6-acad-905d0c73d751",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07583c4a-a4a7-4344-aedd-65879b9a0fa8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7fb692ba-e214-4db3-8bf7-f0ee7a8185ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tab:nth-child(3) > a",
+      "targets": [
+        ["css=.tab:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Dashboard')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/dashboard')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f91f399-5516-4eb3-9222-add07dc69f75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.large",
+      "targets": [
+        ["css=.large", "css:finder"],
+        ["xpath=//div[2]/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'assignment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6d26511-e121-4b84-8625-b53e37194a3f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.large",
+      "targets": [
+        ["css=.large", "css:finder"],
+        ["xpath=//div[2]/div/div/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c80072e-c000-4778-ae5c-25161cc21f60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.large",
+      "targets": [
+        ["css=.large", "css:finder"],
+        ["xpath=//div[2]/div/div/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e607bd7f-7408-4c3b-9f48-c96389ba06c0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.large",
+      "targets": [
+        ["css=.large", "css:finder"],
+        ["xpath=//div[2]/div/div/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd38aeb5-a50d-4812-a280-a70567a6c246",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s6:nth-child(1) > label",
+      "targets": [
+        ["css=.s6:nth-child(1) > label", "css:finder"],
+        ["xpath=//form[@id='attivitàForm']/div/div/label", "xpath:idRelative"],
+        ["xpath=//form/div/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Nome attività')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe144083-471c-4c9f-9f8d-c9dec9ec9a22",
+      "comment": "",
+      "command": "type",
+      "target": "id=nomeAttivita",
+      "targets": [
+        ["id=nomeAttivita", "id"],
+        ["name=nomeAttivita", "name"],
+        ["css=#nomeAttivita", "css:finder"],
+        ["xpath=//input[@id='nomeAttivita']", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Ricerca Materiale"
+    }, {
+      "id": "ba973846-e792-4a93-908c-e6fdceef7bed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field:nth-child(2) > label",
+      "targets": [
+        ["css=.input-field:nth-child(2) > label", "css:finder"],
+        ["xpath=//form[@id='attivitàForm']/div/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Descizione attività')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe47e49d-4447-4dd1-8df7-65e7888091b6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@name='action'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17193c3c-2ade-4778-92c1-70aaae420145",
+      "comment": "",
+      "command": "type",
+      "target": "id=attività-tirocinio-descrizione",
+      "targets": [
+        ["id=attività-tirocinio-descrizione", "id"],
+        ["name=descrizioneAttivita", "name"],
+        ["css=#attivit\\E0-tirocinio-descrizione", "css:finder"],
+        ["xpath=//input[@id='attività-tirocinio-descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "a"
+    }, {
+      "id": "32f6b2c0-f8ed-4ef9-82f6-f830761a72b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@name='action'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3c1ac309-40d2-468f-b7ec-716febe12416",
+    "name": "TC_GRT_1_3:AggiuntaAttivitàTirocinio_OrarioInizioNonValido",
+    "commands": [{
+      "id": "6b36d586-97e1-419a-85a5-e9b511b178e7",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66148849-4594-43df-a0a2-64325d55c54d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1f3255c-7228-4962-b31f-4839802b5693",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tab:nth-child(3) > a",
+      "targets": [
+        ["css=.tab:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Dashboard')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/dashboard')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d0584f1-42b5-473c-afe1-505eae590ab6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.large",
+      "targets": [
+        ["css=.large", "css:finder"],
+        ["xpath=//div[2]/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'assignment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0017640-95cf-4580-a7b9-52a39365e265",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.large",
+      "targets": [
+        ["css=.large", "css:finder"],
+        ["xpath=//div[2]/div/div/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cdf6e42-50f1-49f0-8cfa-23dd8e6e0da6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.large",
+      "targets": [
+        ["css=.large", "css:finder"],
+        ["xpath=//div[2]/div/div/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a75d676-8d91-41a2-ac14-766f8e126209",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.large",
+      "targets": [
+        ["css=.large", "css:finder"],
+        ["xpath=//div[2]/div/div/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "201e12be-551b-4096-86eb-e5c57d4e39ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=nomeAttivita",
+      "targets": [
+        ["id=nomeAttivita", "id"],
+        ["name=nomeAttivita", "name"],
+        ["css=#nomeAttivita", "css:finder"],
+        ["xpath=//input[@id='nomeAttivita']", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f205690e-3fda-4dc9-a516-e475e6977f2d",
+      "comment": "",
+      "command": "type",
+      "target": "id=nomeAttivita",
+      "targets": [
+        ["id=nomeAttivita", "id"],
+        ["name=nomeAttivita", "name"],
+        ["css=#nomeAttivita", "css:finder"],
+        ["xpath=//input[@id='nomeAttivita']", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Ricerca Materiale"
+    }, {
+      "id": "8bf26540-1e33-4288-9621-884fa0b65ff7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field:nth-child(2) > label",
+      "targets": [
+        ["css=.input-field:nth-child(2) > label", "css:finder"],
+        ["xpath=//form[@id='attivitàForm']/div/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Descizione attività')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "efe23bf3-6240-43c8-a135-962e2a6987b0",
+      "comment": "",
+      "command": "type",
+      "target": "id=attività-tirocinio-descrizione",
+      "targets": [
+        ["id=attività-tirocinio-descrizione", "id"],
+        ["name=descrizioneAttivita", "name"],
+        ["css=#attivit\\E0-tirocinio-descrizione", "css:finder"],
+        ["xpath=//input[@id='attività-tirocinio-descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Materiale relativo a task 1 "
+    }, {
+      "id": "8142f1cf-ad4a-475e-94fe-3a7cc1c76ba5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field:nth-child(2) .dropdown-trigger",
+      "targets": [
+        ["css=.input-field:nth-child(2) .dropdown-trigger", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "157fdbb6-f760-4020-959b-4764341d5256",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field:nth-child(3) .dropdown-trigger",
+      "targets": [
+        ["css=.input-field:nth-child(3) .dropdown-trigger", "css:finder"],
+        ["xpath=(//input[@type='text'])[5]", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fecb7c1-2b34-4254-a5f8-ae45662e3ed6",
+      "comment": "",
+      "command": "select",
+      "target": "id=minutiInizio",
+      "targets": [],
+      "value": "label=15"
+    }, {
+      "id": "444ffff1-cb7e-4b30-b0a7-cd907933a398",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field:nth-child(2) .dropdown-trigger",
+      "targets": [
+        ["css=.input-field:nth-child(2) .dropdown-trigger", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70b0db45-67c8-4d53-955c-85a1514e59c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#select-options-d10f8ba5-ffc1-14f8-3cdc-09ae8c7e0e1e16 > span",
+      "targets": [
+        ["css=#select-options-d10f8ba5-ffc1-14f8-3cdc-09ae8c7e0e1e16 > span", "css:finder"],
+        ["xpath=//li[@id='select-options-d10f8ba5-ffc1-14f8-3cdc-09ae8c7e0e1e16']/span", "xpath:idRelative"],
+        ["xpath=//li[17]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'15')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dabbdcb-ae18-4294-9f12-85d15b6d8388",
+      "comment": "",
+      "command": "select",
+      "target": "id=oraInizio",
+      "targets": [],
+      "value": "label=15"
+    }, {
+      "id": "52256982-c7bd-4349-a7f6-3d1e24b85a1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@name='action'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a70d180d-276a-4123-bca9-7963460a38f5",
+    "name": "TC_GRT_1_4:AggiuntaAttivitàTirocinio_OrarioFineNonValido",
+    "commands": [{
+      "id": "30074df7-5702-4f9e-9f3e-ec27b19b5621",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46bcc3a0-198b-4a38-aa75-a3674e455df9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3c27f14-5df9-49f5-903b-a35237513a77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tab:nth-child(3) > a",
+      "targets": [
+        ["css=.tab:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Dashboard')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/dashboard')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "669c5215-9963-4033-aa09-f17138c1b852",
+      "comment": "",
+      "command": "click",
+      "target": "css=.large",
+      "targets": [
+        ["css=.large", "css:finder"],
+        ["xpath=//div[2]/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'assignment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c8af81b-2d7c-472c-ac48-a2377040acb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.large",
+      "targets": [
+        ["css=.large", "css:finder"],
+        ["xpath=//div[2]/div/div/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce52dfaa-67c7-43b7-add9-733625982956",
+      "comment": "",
+      "command": "click",
+      "target": "id=nomeAttivita",
+      "targets": [
+        ["id=nomeAttivita", "id"],
+        ["name=nomeAttivita", "name"],
+        ["css=#nomeAttivita", "css:finder"],
+        ["xpath=//input[@id='nomeAttivita']", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9828a80-191c-412e-900e-43c011b4272b",
+      "comment": "",
+      "command": "type",
+      "target": "id=nomeAttivita",
+      "targets": [
+        ["id=nomeAttivita", "id"],
+        ["name=nomeAttivita", "name"],
+        ["css=#nomeAttivita", "css:finder"],
+        ["xpath=//input[@id='nomeAttivita']", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Ricerca Materiale"
+    }, {
+      "id": "f9c40b46-a35d-48bf-b410-9b4edd17cfb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field:nth-child(2) > label",
+      "targets": [
+        ["css=.input-field:nth-child(2) > label", "css:finder"],
+        ["xpath=//form[@id='attivitàForm']/div/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Descizione attività')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdb394e2-81b4-4491-9156-024f22bc6664",
+      "comment": "",
+      "command": "type",
+      "target": "id=attività-tirocinio-descrizione",
+      "targets": [
+        ["id=attività-tirocinio-descrizione", "id"],
+        ["name=descrizioneAttivita", "name"],
+        ["css=#attivit\\E0-tirocinio-descrizione", "css:finder"],
+        ["xpath=//input[@id='attività-tirocinio-descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Materiale relativo a task 1 "
+    }, {
+      "id": "827825c4-9fb1-40a0-b409-f5109d07650b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field:nth-child(2) .dropdown-trigger",
+      "targets": [
+        ["css=.input-field:nth-child(2) .dropdown-trigger", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e8ba407-cff9-4c22-b5f9-c24f9d8b755b",
+      "comment": "",
+      "command": "select",
+      "target": "id=oraInizio",
+      "targets": [],
+      "value": "label=12"
+    }, {
+      "id": "689ed3c5-6353-4f37-bf6c-f8bf5aa7b28d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field:nth-child(3) .dropdown-trigger",
+      "targets": [
+        ["css=.input-field:nth-child(3) .dropdown-trigger", "css:finder"],
+        ["xpath=(//input[@type='text'])[5]", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f1b0851-3fb9-4bb2-b4bd-d93915d5afc7",
+      "comment": "",
+      "command": "select",
+      "target": "id=minutiInizio",
+      "targets": [],
+      "value": "label=00"
+    }, {
+      "id": "0565e051-beb4-48a7-97ad-3d6871a06bce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field:nth-child(5) .dropdown-trigger",
+      "targets": [
+        ["css=.input-field:nth-child(5) .dropdown-trigger", "css:finder"],
+        ["xpath=(//input[@type='text'])[6]", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[2]/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "673eef94-5033-4aee-9779-50dd68eeb45d",
+      "comment": "",
+      "command": "select",
+      "target": "id=oraFine",
+      "targets": [],
+      "value": "label=11"
+    }, {
+      "id": "1be24476-e298-4fb9-b424-b2621a2ef42d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field:nth-child(6) .dropdown-trigger",
+      "targets": [
+        ["css=.input-field:nth-child(6) .dropdown-trigger", "css:finder"],
+        ["xpath=(//input[@type='text'])[7]", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[2]/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4500f7e7-8e0f-4b2a-ab93-2f1229dcfce3",
+      "comment": "",
+      "command": "select",
+      "target": "id=minutiFine",
+      "targets": [],
+      "value": "label=00"
+    }, {
+      "id": "04811deb-b0a7-47d5-8f35-5b6bf9f70c86",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@name='action'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dabf9a1f-d563-47be-9f76-3caad74aa39d",
+    "name": "TC_GRT_1_5:AggiuntaAttivitàTirocinio_NumeroOreNonValido",
+    "commands": [{
+      "id": "abf9552d-c92d-4dca-9e93-c73659fd65d5",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44c35c74-dd6c-41d2-be40-637c4582a785",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "784x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b85d5ac-e547-4e44-9bd0-1a07ac69ba58",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-wrapper > .col",
+      "targets": [
+        ["css=.nav-wrapper > .col", "css:finder"],
+        ["xpath=//nav[@id='navbar']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3699225-8ec6-4434-9fd7-61aed7886f23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sidenav-trigger > .material-icons",
+      "targets": [
+        ["css=.sidenav-trigger > .material-icons", "css:finder"],
+        ["xpath=//nav[@id='navbar']/div/div/div/a[2]/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"],
+        ["xpath=//i[contains(.,'menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "254341f7-f274-4596-93e4-23d92ab9e867",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dashboard",
+      "targets": [
+        ["linkText=Dashboard", "linkText"],
+        ["css=.collapsible-header", "css:finder"],
+        ["xpath=(//a[contains(text(),'Dashboard')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='mobile']/li[7]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//li[7]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "235330dd-00d5-434d-b50a-7ea58d4345ac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tirocini in corso",
+      "targets": [
+        ["linkText=Tirocini in corso", "linkText"],
+        ["css=li:nth-child(1) > .waves-effect", "css:finder"],
+        ["xpath=//a[contains(text(),'Tirocini in corso')]", "xpath:link"],
+        ["xpath=//ul[@id='mobile']/li[7]/ul/li/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/dashboard/tirocini')]", "xpath:href"],
+        ["xpath=//li/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tirocini in corso')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d59b8e69-88a5-4e9b-b893-98d3e59f39fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.large",
+      "targets": [
+        ["css=.large", "css:finder"],
+        ["xpath=//div[2]/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'assignment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b1d1c8a-3aaf-4b23-9462-ef23709df9fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.large",
+      "targets": [
+        ["css=.large", "css:finder"],
+        ["xpath=//div[2]/div/div/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bf7a32a-9fab-4728-80b8-a70008966526",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s6:nth-child(1) > label",
+      "targets": [
+        ["css=.s6:nth-child(1) > label", "css:finder"],
+        ["xpath=//form[@id='attivitàForm']/div/div/label", "xpath:idRelative"],
+        ["xpath=//form/div/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Nome attività')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b50573a0-cd38-4648-9469-1cac599b1cef",
+      "comment": "",
+      "command": "type",
+      "target": "id=nomeAttivita",
+      "targets": [
+        ["id=nomeAttivita", "id"],
+        ["name=nomeAttivita", "name"],
+        ["css=#nomeAttivita", "css:finder"],
+        ["xpath=//input[@id='nomeAttivita']", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Ricerca Materiale"
+    }, {
+      "id": "437ee83f-7cf2-4e4a-9894-beff1ba6a77f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field:nth-child(2) > label",
+      "targets": [
+        ["css=.input-field:nth-child(2) > label", "css:finder"],
+        ["xpath=//form[@id='attivitàForm']/div/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Descizione attività')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "640e6eda-4f7b-4d73-bfac-41ebd532e243",
+      "comment": "",
+      "command": "type",
+      "target": "id=attività-tirocinio-descrizione",
+      "targets": [
+        ["id=attività-tirocinio-descrizione", "id"],
+        ["name=descrizioneAttivita", "name"],
+        ["css=#attivit\\E0-tirocinio-descrizione", "css:finder"],
+        ["xpath=//input[@id='attività-tirocinio-descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Materiale relativo a task 1 "
+    }, {
+      "id": "8e49e6d4-025c-4a7b-8ca4-19f4d9bdf211",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field:nth-child(2) .dropdown-trigger",
+      "targets": [
+        ["css=.input-field:nth-child(2) .dropdown-trigger", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "576e11ea-0940-4cf4-b1b9-0a468dbbc218",
+      "comment": "",
+      "command": "click",
+      "target": "css=#select-options-ae3c211e-4b62-a824-10a7-11460fb1d40113 > span",
+      "targets": [
+        ["css=#select-options-ae3c211e-4b62-a824-10a7-11460fb1d40113 > span", "css:finder"],
+        ["xpath=//li[@id='select-options-ae3c211e-4b62-a824-10a7-11460fb1d40113']/span", "xpath:idRelative"],
+        ["xpath=//li[14]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9089853e-2fb1-475c-8e07-0f1267dd6e71",
+      "comment": "",
+      "command": "select",
+      "target": "id=oraInizio",
+      "targets": [],
+      "value": "label=12"
+    }, {
+      "id": "136c5efc-4a12-482b-99f8-230958d75902",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field:nth-child(3) .dropdown-trigger",
+      "targets": [
+        ["css=.input-field:nth-child(3) .dropdown-trigger", "css:finder"],
+        ["xpath=(//input[@type='text'])[5]", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f422e86-c825-4e0f-89ad-a0e6b9bc58a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#select-options-c83392a2-e939-0f02-2955-cc52e22000641 > span",
+      "targets": [
+        ["css=#select-options-c83392a2-e939-0f02-2955-cc52e22000641 > span", "css:finder"],
+        ["xpath=//li[@id='select-options-c83392a2-e939-0f02-2955-cc52e22000641']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/ul/li[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f00f7737-52da-418e-bff7-12509c3fe535",
+      "comment": "",
+      "command": "select",
+      "target": "id=minutiInizio",
+      "targets": [],
+      "value": "label=00"
+    }, {
+      "id": "9e2874a1-ac8b-4571-afa7-d56ab0e1058f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field:nth-child(5) .dropdown-trigger",
+      "targets": [
+        ["css=.input-field:nth-child(5) .dropdown-trigger", "css:finder"],
+        ["xpath=(//input[@type='text'])[6]", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[2]/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eda75136-fa0c-4b75-b10d-0aac7b2b0a50",
+      "comment": "",
+      "command": "select",
+      "target": "id=oraFine",
+      "targets": [],
+      "value": "label=13"
+    }, {
+      "id": "334b3c71-8657-4fc0-9ebf-e53d3341d60f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field:nth-child(6) .dropdown-trigger",
+      "targets": [
+        ["css=.input-field:nth-child(6) .dropdown-trigger", "css:finder"],
+        ["xpath=(//input[@type='text'])[7]", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[2]/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "997c5978-a542-4c2e-9e01-dd7200af9d60",
+      "comment": "",
+      "command": "select",
+      "target": "id=minutiFine",
+      "targets": [],
+      "value": "label=00"
+    }, {
+      "id": "6e256baf-9cba-410b-8646-7a7080548dab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s4 > .material-icons",
+      "targets": [
+        ["css=.s4 > .material-icons", "css:finder"],
+        ["xpath=//form[@id='attivitàForm']/div[3]/div/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/i", "xpath:position"],
+        ["xpath=//i[contains(.,'school')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63cb7270-afeb-41d0-8112-461a5ce4c3ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row-label:nth-child(3)",
+      "targets": [
+        ["css=.row-label:nth-child(3)", "css:finder"],
+        ["xpath=//form[@id='attivitàForm']/div[3]/div/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'n° ore')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6ee6c35-3479-426f-a1f2-0b79f4e27a71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row-label:nth-child(3)",
+      "targets": [
+        ["css=.row-label:nth-child(3)", "css:finder"],
+        ["xpath=//form[@id='attivitàForm']/div[3]/div/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'n° ore')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bccf7a87-dcaf-46f3-a7ab-1c73d498c7a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row-label:nth-child(3)",
+      "targets": [
+        ["css=.row-label:nth-child(3)", "css:finder"],
+        ["xpath=//form[@id='attivitàForm']/div[3]/div/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'n° ore')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eafd68a9-4a23-4cc8-ad36-cdaf5cf9fa3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row-label:nth-child(3)",
+      "targets": [
+        ["css=.row-label:nth-child(3)", "css:finder"],
+        ["xpath=//form[@id='attivitàForm']/div[3]/div/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'n° ore')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6159c99e-7553-4ddc-9639-5bdbca36e3b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=numOre",
+      "targets": [
+        ["id=numOre", "id"],
+        ["name=numOre", "name"],
+        ["css=#numOre", "css:finder"],
+        ["xpath=//input[@id='numOre']", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac1a9cab-4067-40bf-854c-1182ac32eb15",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=aggiungi-attività-tirocinio",
+      "targets": [
+        ["id=aggiungi-attività-tirocinio", "id"],
+        ["css=#aggiungi-attivit\\E0-tirocinio", "css:finder"],
+        ["xpath=//div[@id='aggiungi-attività-tirocinio']", "xpath:attributes"],
+        ["xpath=//main/div[2]", "xpath:position"]
+      ],
+      "value": "603.9625015258789,441.6499938964844"
+    }, {
+      "id": "9f8f5b2a-b272-43e6-b911-c7573d67fb1c",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=aggiungi-attività-tirocinio",
+      "targets": [
+        ["id=aggiungi-attività-tirocinio", "id"],
+        ["css=#aggiungi-attivit\\E0-tirocinio", "css:finder"],
+        ["xpath=//div[@id='aggiungi-attività-tirocinio']", "xpath:attributes"],
+        ["xpath=//main/div[2]", "xpath:position"]
+      ],
+      "value": "603.9625015258789,441.6499938964844"
+    }, {
+      "id": "b1a6b0a0-1e27-4645-b04e-7c69598e619a",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=aggiungi-attività-tirocinio",
+      "targets": [
+        ["id=aggiungi-attività-tirocinio", "id"],
+        ["css=#aggiungi-attivit\\E0-tirocinio", "css:finder"],
+        ["xpath=//div[@id='aggiungi-attività-tirocinio']", "xpath:attributes"],
+        ["xpath=//main/div[2]", "xpath:position"]
+      ],
+      "value": "603.9625015258789,441.6499938964844"
+    }, {
+      "id": "189dd690-8804-4902-a19d-92faf5f97128",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn:nth-child(3) > .material-icons",
+      "targets": [
+        ["css=.btn:nth-child(3) > .material-icons", "css:finder"],
+        ["xpath=//form[@id='attivitàForm']/div[4]/div/button/i", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a032b229-fba9-4c47-a222-50c0ae8a02aa",
+      "comment": "",
+      "command": "type",
+      "target": "id=numOre",
+      "targets": [
+        ["id=numOre", "id"],
+        ["name=numOre", "name"],
+        ["css=#numOre", "css:finder"],
+        ["xpath=//input[@id='numOre']", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "20"
+    }, {
+      "id": "cedc0aa3-6c70-4bf9-bd57-849a907aabf6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3) > .material-icons",
+      "targets": [
+        ["css=.btn:nth-child(3) > .material-icons", "css:finder"],
+        ["xpath=//form[@id='attivitàForm']/div[4]/div/button/i", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "04412d6e-d8f7-4953-8b3c-ae68d29d34ce",
+    "name": "TC_GRT_6_2:AggiuntaAttivitàTirocinio_Successo",
+    "commands": [{
+      "id": "1b40d433-4348-4500-b83b-2fc315a56034",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e1832dd-e2ee-4dd7-bbf0-fc4143ffc876",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4132d02c-5ec7-48b2-becb-9b77a00f9166",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tab:nth-child(3) > a",
+      "targets": [
+        ["css=.tab:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Dashboard')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/dashboard')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95936010-e207-4781-9024-92b7dca5db4b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.large",
+      "targets": [
+        ["css=.large", "css:finder"],
+        ["xpath=//div[2]/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'assignment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f0e53a9-ad89-4ff2-a89c-6f4f76ed9115",
+      "comment": "",
+      "command": "click",
+      "target": "css=.large",
+      "targets": [
+        ["css=.large", "css:finder"],
+        ["xpath=//div[2]/div/div/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3941b9a6-9fdd-415e-a4d9-bd1f091a1fe1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s6:nth-child(1) > label",
+      "targets": [
+        ["css=.s6:nth-child(1) > label", "css:finder"],
+        ["xpath=//form[@id='attivitàForm']/div/div/label", "xpath:idRelative"],
+        ["xpath=//form/div/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Nome attività')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0061a3c-e3c6-40de-b35d-3677e9c60603",
+      "comment": "",
+      "command": "type",
+      "target": "id=nomeAttivita",
+      "targets": [
+        ["id=nomeAttivita", "id"],
+        ["name=nomeAttivita", "name"],
+        ["css=#nomeAttivita", "css:finder"],
+        ["xpath=//input[@id='nomeAttivita']", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Ricerca Materiale"
+    }, {
+      "id": "7dc719ed-d635-4c44-8571-02feb14e204e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field:nth-child(2) > label",
+      "targets": [
+        ["css=.input-field:nth-child(2) > label", "css:finder"],
+        ["xpath=//form[@id='attivitàForm']/div/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Descizione attività')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a81d301-3ce7-4d5c-b7e3-aac53b43b69a",
+      "comment": "",
+      "command": "type",
+      "target": "id=attività-tirocinio-descrizione",
+      "targets": [
+        ["id=attività-tirocinio-descrizione", "id"],
+        ["name=descrizioneAttivita", "name"],
+        ["css=#attivit\\E0-tirocinio-descrizione", "css:finder"],
+        ["xpath=//input[@id='attività-tirocinio-descrizione']", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Materiale relativo a task 1 "
+    }, {
+      "id": "e96e106f-e9f5-4435-8d4d-31147169b3e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field:nth-child(2) .dropdown-trigger",
+      "targets": [
+        ["css=.input-field:nth-child(2) .dropdown-trigger", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dbcaa6e-6413-41a8-bcb8-63200ee006dc",
+      "comment": "",
+      "command": "select",
+      "target": "id=oraInizio",
+      "targets": [],
+      "value": "label=12"
+    }, {
+      "id": "b228139d-abc5-44bf-b584-231f7475bebc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field:nth-child(3) .dropdown-trigger",
+      "targets": [
+        ["css=.input-field:nth-child(3) .dropdown-trigger", "css:finder"],
+        ["xpath=(//input[@type='text'])[5]", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21e4b366-9914-4869-9515-b89525696bd1",
+      "comment": "",
+      "command": "select",
+      "target": "id=minutiInizio",
+      "targets": [],
+      "value": "label=00"
+    }, {
+      "id": "dd5d0116-c745-422f-b708-19197d03e583",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field:nth-child(5) .dropdown-trigger",
+      "targets": [
+        ["css=.input-field:nth-child(5) .dropdown-trigger", "css:finder"],
+        ["xpath=(//input[@type='text'])[6]", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[2]/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40693f1a-1d3a-45eb-867d-cecfe26cb1f4",
+      "comment": "",
+      "command": "select",
+      "target": "id=oraFine",
+      "targets": [],
+      "value": "label=13"
+    }, {
+      "id": "07a97f34-e371-44be-8cec-af98944bcfb1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-field:nth-child(6) .dropdown-trigger",
+      "targets": [
+        ["css=.input-field:nth-child(6) .dropdown-trigger", "css:finder"],
+        ["xpath=(//input[@type='text'])[7]", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[2]/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ed27e1f-9cd8-4d3c-b12c-acf96182f1ed",
+      "comment": "",
+      "command": "select",
+      "target": "id=minutiFine",
+      "targets": [],
+      "value": "label=00"
+    }, {
+      "id": "184cb09d-1e94-448e-9406-98d755acadc4",
+      "comment": "",
+      "command": "click",
+      "target": "id=numOre",
+      "targets": [
+        ["id=numOre", "id"],
+        ["name=numOre", "name"],
+        ["css=#numOre", "css:finder"],
+        ["xpath=//input[@id='numOre']", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95896035-91bf-4f8b-b886-c7bcc103a023",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=aggiungi-attività-tirocinio",
+      "targets": [
+        ["id=aggiungi-attività-tirocinio", "id"],
+        ["css=#aggiungi-attivit\\E0-tirocinio", "css:finder"],
+        ["xpath=//div[@id='aggiungi-attività-tirocinio']", "xpath:attributes"],
+        ["xpath=//main/div[2]", "xpath:position"]
+      ],
+      "value": "841.3999938964844,469.7624969482422"
+    }, {
+      "id": "2f12cceb-030c-49b0-af2b-141e6ecd32b5",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=aggiungi-attività-tirocinio",
+      "targets": [
+        ["id=aggiungi-attività-tirocinio", "id"],
+        ["css=#aggiungi-attivit\\E0-tirocinio", "css:finder"],
+        ["xpath=//div[@id='aggiungi-attività-tirocinio']", "xpath:attributes"],
+        ["xpath=//main/div[2]", "xpath:position"]
+      ],
+      "value": "841.3999938964844,469.7624969482422"
+    }, {
+      "id": "2d9c5360-1dc0-4394-ab2b-9a8f9bb87507",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=aggiungi-attività-tirocinio",
+      "targets": [
+        ["id=aggiungi-attività-tirocinio", "id"],
+        ["css=#aggiungi-attivit\\E0-tirocinio", "css:finder"],
+        ["xpath=//div[@id='aggiungi-attività-tirocinio']", "xpath:attributes"],
+        ["xpath=//main/div[2]", "xpath:position"]
+      ],
+      "value": "841.3999938964844,469.7624969482422"
+    }, {
+      "id": "0e4fb391-29dc-4004-9ea1-04cc917aac44",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn:nth-child(3) > .material-icons",
+      "targets": [
+        ["css=.btn:nth-child(3) > .material-icons", "css:finder"],
+        ["xpath=//form[@id='attivitàForm']/div[4]/div/button/i", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f03a02cf-4cb8-435b-ae21-b139ecf639bf",
+      "comment": "",
+      "command": "type",
+      "target": "id=numOre",
+      "targets": [
+        ["id=numOre", "id"],
+        ["name=numOre", "name"],
+        ["css=#numOre", "css:finder"],
+        ["xpath=//input[@id='numOre']", "xpath:attributes"],
+        ["xpath=//form[@id='attivitàForm']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "694afd0b-83a5-4498-9950-f2267a87df71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3) > .material-icons",
+      "targets": [
+        ["css=.btn:nth-child(3) > .material-icons", "css:finder"],
+        ["xpath=//form[@id='attivitàForm']/div[4]/div/button/i", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e451310b-7c41-4c23-8628-4d3e0268d927",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c62e5adc-a117-4bc3-a853-17d71316c4eb"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
